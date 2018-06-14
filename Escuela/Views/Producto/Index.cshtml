@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Escuela.Models.Producto>
+
+@{
+    ViewBag.Title = "Index";
+    if (ViewBag.Alumno)
+    {
+        Layout = "~/Views/Shared/_AluLayout.cshtml";
+    }
+    else
+    {
+        if (ViewBag.Profesor)
+        {
+            Layout = "~/Views/Shared/_ProfeLayout.cshtml";
+        }
+        else
+        {
+            Layout = "~/Views/Shared/_Layout.cshtml";
+        }
+    }
+}
+
+<a href="~/Producto/Index" style="text-decoration: none; color: black"><h1 class="my-4 text-center">@Recursos.Recurso.String3</h1></a>
+<h3 class="my-4 text-center">@Recursos.Recurso.String19</h3>
+<div class="container col-sm-10">
+    <div class="jumbotron">
+
+        <div class="text-center">
+            <form action="~/Producto/Index" method="post" style="display: flex; justify-content: center; margin-bottom: 15px;">
+                <input placeholder="@Recursos.Recurso.String44" name="param" style="margin-right: 5px; width: 300px;" />
+                <input class="btn btn-primary" type="submit" value="@Recursos.Recurso.String43" />
+            </form>
+        </div>
+        </br></br>
+        <div class="container-fluid" style="padding: 0 0 40px 0">
+            <div class="row-fluid">
+                <div class="row">
+                    @foreach (var item in Model)
+            {
+                        <div class="col-lg-4 mb-4">
+                            <div class="card h-100 text-center">
+                                <h4 class="card-header bg-info" style="color: white;">@Html.DisplayFor(modelItem => item.Nombre)</h4>
+                                <div class="card-body">
+                                    <figure class="figure">
+                                        @{
+                                            string enlace = "../producto/DetalleProducto/" + item.id;
+
+                                            <a href=@enlace> <img src="~/Images/Productos/@item.Imagen" class="card-img-top" alt="@item.Nombre"></a>
+                                        }
+                                    </figure>
+                                    <p class="card-text">@Recursos.Recurso.String17 </p>
+                                    <h2>@Html.DisplayFor(modelItem => item.Precio_compra)€</h2>
+                                    <p class="card-text">@Recursos.Recurso.String18 </p>
+                                    <h3>@Html.DisplayFor(modelItem => item.Precio_alquiler)€/@Recursos.Recurso.String45</h3>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="row">
+                                        <div class="col">
+                                            <a href=@enlace class="btn white" style=" background-color: grey; color: white;">@Recursos.Recurso.String20 </a>
+                                        </div>
+                                        <div class="col">
+                                            @{
+                                                <form id="myForm2" action="~/Cesta/Create" method="Post">
+                                                    <input hidden type="number" name="cantidad" value="1" min="1" max="1" />
+                                                    @{
+                                                        string enlace2 = item.id.ToString();
+                                                    }
+                                                    <input hidden type="number" name="id" value=@enlace2 />
+                                                    <input type="submit" class="btn white" style=" background-color: grey; color: white;" value="@Recursos.Recurso.String21" />
+                                                </form>
+                                            }
+                                        </div>
+                                    </div>
+                                    
+
+                                </div>
+                            </div>
+                        </div>
+                                        }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

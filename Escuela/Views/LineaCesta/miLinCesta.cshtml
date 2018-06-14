@@ -1,0 +1,200 @@
+﻿@model IEnumerable<Escuela.Models.CestaCompuesta>
+
+@{
+    ViewBag.Title = "Mi Cesta";
+    string alupadding = "";
+    if (ViewBag.Alumno)
+    {
+        Layout = "~/Views/Shared/_AluLayout.cshtml";
+        alupadding = "margin-top: 30px";
+    }
+    else
+    {
+        if (ViewBag.Profesor)
+        {
+            Layout = "~/Views/Shared/_ProfeLayout.cshtml";
+        }
+        else
+        {
+            Layout = "~/Views/Shared/_Layout.cshtml";
+        }
+    }
+    int count = 1;
+
+}
+
+
+<h2 class="text-center" style="@alupadding">Mi Cesta</h2>
+<div class="container col-sm-10">
+    <div class="jumbotron">
+        <table class="table">
+            <tr class="table-active">
+                <th>
+                    Producto
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Cantidad)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Precio)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Dias)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+
+
+                <tr @{ if (item.Dias != -1) { @: class="table-info"
+                                            } }>
+                    <td class="align-middle">
+                        <img height="90" width="180" src="~/Images/Productos/@Html.DisplayFor(model => item.Imagen)" />
+                    </td>
+                    <td class="align-middle">
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td class="align-middle text-center">
+
+                        <a href="#" class="incrproduct" data-id="@item.Id" data-idmain="@item.IdMain" data-dias="@item.Dias">
+                            +
+                        </a>
+                        <span class="qty@(item.IdMain)">@Html.DisplayFor(modelItem => item.Cantidad)</span>
+                        <a href="#" class="decrproduct" data-id="@item.Id" data-idmain="@item.IdMain" data-dias="@item.Dias">-</a>
+                    </td>
+                    <td class="price@(item.IdMain) align-middle text-center">
+                        @Html.DisplayFor(modelItem => item.Precio)€
+                    </td>
+                    <td class="align-middle text-center">
+                        @{
+                            if (item.Dias != -1)
+                            {
+                                Html.DisplayFor(modelItem => item.Dias);
+                                <text>@item.Dias </text>
+                            }
+                            else
+                            {
+                                @:-
+                            }
+
+                        }
+
+                    </td>
+                    <td class="align-middle">
+                        @Html.ActionLink("Borrar", "Delete", new { id = item.IdMain })
+                    </td>
+                </tr>
+                            }
+
+        </table>
+        <p class="float-right"><b>Precio total: </b><span class="total">@ViewBag.Precio€</span></p>
+        </br></br>
+        <div class="paypaldiv float-right">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="upload" value="1">
+                <input type="hidden" name="business" value="antoniorv6-facilitator@gmail.com">
+
+                @foreach (var item in Model)
+                {
+                    String nombre = item.Nombre;
+                    if (item.Dias != -1)
+                    {
+                        nombre += " [Alquiler / Días: " + item.Dias + "]";
+                    }
+                    <input type="hidden" name="item_name_@count" value="@nombre">
+                    <input type="hidden" name="amount_@count" value="0.01">
+
+                    <input type="hidden" name="quantity_@count" value="@item.Cantidad">
+                    count++;
+                }
+                <input type="hidden" name="currency_code" value="EUR">
+                <input type="hidden" name="return" value="https://localhost:44339//Pedido//Create">
+                <input type="hidden" name="cancel_return" value="https://localhost:44339//Home" />
+                <input class="btn btn-primary" type="submit" value="PayPal">
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+
+        $(function () {
+
+            $("a.incrproduct").click(function (e) {
+
+                e.preventDefault();
+
+                var id = $(this).data("id");
+                var idmain = $(this).data("idmain");
+                var dias = $(this).data("dias");
+
+                var url = "../cesta/Incrementar";
+
+                $.getJSON(url, { id: id, dias: dias }, function (data) {
+
+                    var cantidad = parseFloat($("span.qty" + idmain).text());
+                    var precio = parseFloat($("td.price" + idmain).text());
+
+                    $("span.qty" + idmain).html(data.qty);
+
+                    $("td.price" + idmain).html((data.price).toFixed(2) + "€");
+
+                    var total = parseFloat($("span.total").text());
+                    var nuevo_total = ((total).toFixed(2) - parseFloat((precio).toFixed(2)) + parseFloat((data.price).toFixed(2))).toFixed(2);
+
+                    $("span.total").html(nuevo_total + "€");
+
+                    var kant = parseInt($("span.cesta").text()) + 1;
+                    $("span.cesta").html(kant);
+
+                });
+
+
+            });
+
+            $("a.decrproduct").click(function (e) {
+
+                e.preventDefault();
+
+                var id = $(this).data("id");
+                var idmain = $(this).data("idmain");
+                var dias = $(this).data("dias");
+                var url = "../cesta/Decrementar";
+                var cantidad = parseFloat($("span.qty" + idmain).text());
+                if (cantidad > 1) {
+                    $.getJSON(url, { id: id, dias: dias }, function (data) {
+
+
+
+                        var precio = parseFloat($("td.price" + idmain).text());
+
+                        $("span.qty" + idmain).html(data.qty);
+
+                        $("td.price" + idmain).html((data.price).toFixed(2) + "€");
+
+                        var total = parseFloat($("span.total").text());
+                        var nuevo_total = ((total).toFixed(2) - parseFloat((precio).toFixed(2)) + parseFloat((data.price).toFixed(2))).toFixed(2);
+
+                        $("span.total").html(nuevo_total + "€");
+
+                        var kant = parseInt($("span.cesta").text()) - 1;
+                        $("span.cesta").html(kant);
+
+                    });
+                }
+
+            });
+
+        });
+
+
+    </script>
+
+}

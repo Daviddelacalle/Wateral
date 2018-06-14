@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+		<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		  <PropertyGroup>
+		    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+		    <ProductVersion>8.0.30703</ProductVersion>
+		    <SchemaVersion>2.0</SchemaVersion>
+		    <ProjectGuid>{66C66636-FD6A-4A3F-A7C5-FE88BBA117AF}</ProjectGuid>
+		    <OutputType>Library</OutputType>
+		    <AppDesignerFolder>Properties</AppDesignerFolder>
+		    <RootNamespace>WateralGenNHibernate</RootNamespace>
+		    <AssemblyName>WateralGenNHibernate</AssemblyName>
+		    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+		    <FileAlignment>512</FileAlignment>
+		    <PublishUrl>publish\</PublishUrl>
+		    <Install>true</Install>
+		    <InstallFrom>Disk</InstallFrom>
+		    <UpdateEnabled>false</UpdateEnabled>
+		    <UpdateMode>Foreground</UpdateMode>
+		    <UpdateInterval>7</UpdateInterval>
+		    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+		    <UpdatePeriodically>false</UpdatePeriodically>
+		    <UpdateRequired>false</UpdateRequired>
+		    <MapFileExtensions>true</MapFileExtensions>
+		    <ApplicationRevision>0</ApplicationRevision>
+		    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+		    <IsWebBootstrapper>false</IsWebBootstrapper>
+		    <UseApplicationTrust>false</UseApplicationTrust>
+		    <BootstrapperEnabled>true</BootstrapperEnabled>
+		  </PropertyGroup>
+		  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		    <DebugSymbols>true</DebugSymbols>
+		    <DebugType>full</DebugType>
+		    <Optimize>false</Optimize>
+		    <OutputPath>bin\Debug\</OutputPath>
+		    <DefineConstants>DEBUG;TRACE</DefineConstants>
+		    <ErrorReport>prompt</ErrorReport>
+		    <WarningLevel>4</WarningLevel>
+		  </PropertyGroup>
+		  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		    <DebugType>pdbonly</DebugType>
+		    <Optimize>true</Optimize>
+		    <OutputPath>bin\Release\</OutputPath>
+		    <DefineConstants>TRACE</DefineConstants>
+		    <ErrorReport>prompt</ErrorReport>
+		    <WarningLevel>4</WarningLevel>
+		  </PropertyGroup>
+		<ItemGroup>
+		    <Reference Include="Castle.DynamicProxy2, Version=2.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\WateralGenNHibernate\AppLib\Castle.DynamicProxy2.dll</HintPath>
+		    </Reference>
+		    <Reference Include="LinFu.DynamicProxy, Version=1.0.3.14911, Culture=neutral, PublicKeyToken=62a6874124340d6e, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\WateralGenNHibernate\AppLib\LinFu.DynamicProxy.dll</HintPath>
+		    </Reference>
+		    <Reference Include="NHibernate, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\WateralGenNHibernate\AppLib\NHibernate.dll</HintPath>
+		    </Reference>
+		    <Reference Include="NHibernate.ByteCode.Castle, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\WateralGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll</HintPath>
+		    </Reference>
+		    <Reference Include="NHibernate.ByteCode.LinFu, Version=2.1.2.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+		      <SpecificVersion>False</SpecificVersion>
+		      <HintPath>..\WateralGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll</HintPath>
+		    </Reference>
+		    <Reference Include="System" />
+		    <Reference Include="System.Core">
+		      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+		    </Reference>
+		    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+		    <Reference Include="System.Transactions" />
+		    <Reference Include="System.Xml.Linq">
+		      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+		    </Reference>
+		    <Reference Include="System.Data.DataSetExtensions">
+		      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+		    </Reference>
+		    <Reference Include="System.Data" />
+		    <Reference Include="System.Xml" />
+		</ItemGroup>
+		
+		<ItemGroup>
+		    <Content Include="..\WateralGenNHibernate\AppLib\Antlr3.Runtime.dll" />
+		    <Content Include="..\WateralGenNHibernate\AppLib\Castle.DynamicProxy2.dll" />
+		    <Content Include="..\WateralGenNHibernate\AppLib\Iesi.Collections.dll" />
+		    <Content Include="..\WateralGenNHibernate\AppLib\LinFu.DynamicProxy.dll" />
+		    <Content Include="..\WateralGenNHibernate\AppLib\log4net.dll" />
+		    <Content Include="..\WateralGenNHibernate\AppLib\NHibernate.ByteCode.Castle.dll" />
+		    <Content Include="..\WateralGenNHibernate\AppLib\NHibernate.ByteCode.LinFu.dll" />
+		    <Content Include="..\WateralGenNHibernate\AppLib\NHibernate.dll" />
+		    <Content Include="..\WateralGenNHibernate\AppLib\nunit.core.dll" />
+		    <Content Include="..\WateralGenNHibernate\AppLib\nunit.framework.dll" />
+  		</ItemGroup>
+  		
+		<ItemGroup>
+			<Compile Include="NHibernateHelper.cs" />
+		    <Compile Include="Utils\Util.cs" />
+		    <Compile Include="Exceptions\ModelException.cs"/>
+		    <Compile Include="Exceptions\DataLayerException.cs"/>
+		    
+	<Compile Include="CAD\BasicCAD.cs"/>
+	<Compile Include="CP\BasicCP.cs"/>
+	<Compile Include="EN\Wateral\UserRegistradoEN.cs" />
+	<Compile Include="CEN\Wateral\UserRegistradoCEN.cs" />
+	<Compile Include="CAD\Wateral\IUserRegistradoCAD.cs" />
+	<Compile Include="CAD\Wateral\UserRegistradoCAD.cs" />
+	<Compile Include="CP\Wateral\UserRegistradoCP.cs" />
+			
+			
+			
+			<Compile Include="CEN\Wateral\UserRegistradoCEN_Valorar_producto.cs" />
+			
+			
+			
+			<Compile Include="CEN\Wateral\UserRegistradoCEN_Identificarse.cs" />
+			
+	<Compile Include="EN\Wateral\MensajeEN.cs" />
+	<Compile Include="CEN\Wateral\MensajeCEN.cs" />
+	<Compile Include="CAD\Wateral\IMensajeCAD.cs" />
+	<Compile Include="CAD\Wateral\MensajeCAD.cs" />
+	<Compile Include="CP\Wateral\MensajeCP.cs" />
+			
+			
+			
+			
+			
+			<Compile Include="CEN\Wateral\MensajeCEN_EnviarMensaje.cs" />
+			
+	<Compile Include="EN\Wateral\AlumnoEN.cs" />
+	<Compile Include="CEN\Wateral\AlumnoCEN.cs" />
+	<Compile Include="CAD\Wateral\IAlumnoCAD.cs" />
+	<Compile Include="CAD\Wateral\AlumnoCAD.cs" />
+	<Compile Include="CP\Wateral\AlumnoCP.cs" />
+			
+			
+			
+			
+			
+			
+			<Compile Include="CP\Wateral\AlumnoCP_Inscribirse_curso.cs" />
+			
+	<Compile Include="EN\Wateral\ProfesorEN.cs" />
+	<Compile Include="CEN\Wateral\ProfesorCEN.cs" />
+	<Compile Include="CAD\Wateral\IProfesorCAD.cs" />
+	<Compile Include="CAD\Wateral\ProfesorCAD.cs" />
+	<Compile Include="CP\Wateral\ProfesorCP.cs" />
+			
+			
+			
+			
+			
+	<Compile Include="EN\Wateral\CursoEN.cs" />
+	<Compile Include="CEN\Wateral\CursoCEN.cs" />
+	<Compile Include="CAD\Wateral\ICursoCAD.cs" />
+	<Compile Include="CAD\Wateral\CursoCAD.cs" />
+	<Compile Include="CP\Wateral\CursoCP.cs" />
+			
+			
+			
+			
+			
+	<Compile Include="EN\Wateral\AdministradorEN.cs" />
+	<Compile Include="CEN\Wateral\AdministradorCEN.cs" />
+	<Compile Include="CAD\Wateral\IAdministradorCAD.cs" />
+	<Compile Include="CAD\Wateral\AdministradorCAD.cs" />
+	<Compile Include="CP\Wateral\AdministradorCP.cs" />
+			
+			
+			
+			
+			
+	<Compile Include="EN\Wateral\Solicitud_cambioEN.cs" />
+	<Compile Include="CEN\Wateral\Solicitud_cambioCEN.cs" />
+	<Compile Include="CAD\Wateral\ISolicitud_cambioCAD.cs" />
+	<Compile Include="CAD\Wateral\Solicitud_cambioCAD.cs" />
+	<Compile Include="CP\Wateral\Solicitud_cambioCP.cs" />
+			
+			
+			
+			
+			
+			<Compile Include="CEN\Wateral\Solicitud_cambioCEN_SolicitarCambio.cs" />
+			
+	<Compile Include="EN\Wateral\GrupoEN.cs" />
+	<Compile Include="CEN\Wateral\GrupoCEN.cs" />
+	<Compile Include="CAD\Wateral\IGrupoCAD.cs" />
+	<Compile Include="CAD\Wateral\GrupoCAD.cs" />
+	<Compile Include="CP\Wateral\GrupoCP.cs" />
+			
+			
+			
+			
+			
+	<Compile Include="EN\Wateral\ClaseEN.cs" />
+	<Compile Include="CEN\Wateral\ClaseCEN.cs" />
+	<Compile Include="CAD\Wateral\IClaseCAD.cs" />
+	<Compile Include="CAD\Wateral\ClaseCAD.cs" />
+	<Compile Include="CP\Wateral\ClaseCP.cs" />
+			
+			
+			
+			
+			
+	<Compile Include="EN\Wateral\NoticiaEN.cs" />
+	<Compile Include="CEN\Wateral\NoticiaCEN.cs" />
+	<Compile Include="CAD\Wateral\INoticiaCAD.cs" />
+	<Compile Include="CAD\Wateral\NoticiaCAD.cs" />
+	<Compile Include="CP\Wateral\NoticiaCP.cs" />
+			
+			
+			
+			
+			
+	<Compile Include="EN\Wateral\CestaEN.cs" />
+	<Compile Include="CEN\Wateral\CestaCEN.cs" />
+	<Compile Include="CAD\Wateral\ICestaCAD.cs" />
+	<Compile Include="CAD\Wateral\CestaCAD.cs" />
+	<Compile Include="CP\Wateral\CestaCP.cs" />
+			
+			
+			
+			<Compile Include="CP\Wateral\CestaCP_Anyadir.cs" />
+			
+			<Compile Include="CP\Wateral\CestaCP_Realizar_pago.cs" />
+			
+			
+			
+			<Compile Include="CEN\Wateral\CestaCEN_Min.cs" />
+			
+	<Compile Include="EN\Wateral\LineaCestaEN.cs" />
+	<Compile Include="CEN\Wateral\LineaCestaCEN.cs" />
+	<Compile Include="CAD\Wateral\ILineaCestaCAD.cs" />
+	<Compile Include="CAD\Wateral\LineaCestaCAD.cs" />
+	<Compile Include="CP\Wateral\LineaCestaCP.cs" />
+			
+			
+			
+			
+			
+			<Compile Include="CP\Wateral\LineaCestaCP_Cantidad.cs" />
+			
+			<Compile Include="CP\Wateral\LineaCestaCP_Create_LinPed.cs" />
+			
+	<Compile Include="EN\Wateral\PedidoEN.cs" />
+	<Compile Include="CEN\Wateral\PedidoCEN.cs" />
+	<Compile Include="CAD\Wateral\IPedidoCAD.cs" />
+	<Compile Include="CAD\Wateral\PedidoCAD.cs" />
+	<Compile Include="CP\Wateral\PedidoCP.cs" />
+			
+			
+			
+			
+			
+	<Compile Include="EN\Wateral\PagoEN.cs" />
+	<Compile Include="CEN\Wateral\PagoCEN.cs" />
+	<Compile Include="CAD\Wateral\IPagoCAD.cs" />
+	<Compile Include="CAD\Wateral\PagoCAD.cs" />
+	<Compile Include="CP\Wateral\PagoCP.cs" />
+			
+			
+			
+			<Compile Include="CP\Wateral\PagoCP_CrearPagoCesta.cs" />
+			
+			
+			
+			
+			<Compile Include="CP\Wateral\PagoCP_CrearPagoMatricula.cs" />
+			
+			
+	<Compile Include="EN\Wateral\ProductoEN.cs" />
+	<Compile Include="CEN\Wateral\ProductoCEN.cs" />
+	<Compile Include="CAD\Wateral\IProductoCAD.cs" />
+	<Compile Include="CAD\Wateral\ProductoCAD.cs" />
+	<Compile Include="CP\Wateral\ProductoCP.cs" />
+			
+			
+			
+			<Compile Include="CEN\Wateral\ProductoCEN_ModificarStock.cs" />
+			
+			<Compile Include="CEN\Wateral\ProductoCEN_GetName.cs" />
+			
+			
+			
+			
+			<Compile Include="CP\Wateral\ProductoCP_ConsultarProductos.cs" />
+			
+			<Compile Include="CP\Wateral\ProductoCP_ListarProducto.cs" />
+			
+			<Compile Include="CEN\Wateral\ProductoCEN_TieneStock.cs" />
+			
+	<Compile Include="EN\Wateral\TarjetaEN.cs" />
+	<Compile Include="CEN\Wateral\TarjetaCEN.cs" />
+	<Compile Include="CAD\Wateral\ITarjetaCAD.cs" />
+	<Compile Include="CAD\Wateral\TarjetaCAD.cs" />
+	<Compile Include="CP\Wateral\TarjetaCP.cs" />
+			
+			
+			
+			
+			
+	<Compile Include="EN\Wateral\ValoracionEN.cs" />
+	<Compile Include="CEN\Wateral\ValoracionCEN.cs" />
+	<Compile Include="CAD\Wateral\IValoracionCAD.cs" />
+	<Compile Include="CAD\Wateral\ValoracionCAD.cs" />
+	<Compile Include="CP\Wateral\ValoracionCP.cs" />
+			
+			
+			
+			
+			
+	<Compile Include="EN\Wateral\ValoracionProductoEN.cs" />
+	<Compile Include="CEN\Wateral\ValoracionProductoCEN.cs" />
+	<Compile Include="CAD\Wateral\IValoracionProductoCAD.cs" />
+	<Compile Include="CAD\Wateral\ValoracionProductoCAD.cs" />
+	<Compile Include="CP\Wateral\ValoracionProductoCP.cs" />
+			
+			
+			
+			<Compile Include="CP\Wateral\ValoracionProductoCP_ValorarProducto.cs" />
+			
+			
+			
+	<Compile Include="EN\Wateral\ValoracionProfesorEN.cs" />
+	<Compile Include="CEN\Wateral\ValoracionProfesorCEN.cs" />
+	<Compile Include="CAD\Wateral\IValoracionProfesorCAD.cs" />
+	<Compile Include="CAD\Wateral\ValoracionProfesorCAD.cs" />
+	<Compile Include="CP\Wateral\ValoracionProfesorCP.cs" />
+			
+			
+			
+			<Compile Include="CP\Wateral\ValoracionProfesorCP_ValorarProfesor.cs" />
+			
+			
+			
+	<Compile Include="EN\Wateral\ValoracionCursoEN.cs" />
+	<Compile Include="CEN\Wateral\ValoracionCursoCEN.cs" />
+	<Compile Include="CAD\Wateral\IValoracionCursoCAD.cs" />
+	<Compile Include="CAD\Wateral\ValoracionCursoCAD.cs" />
+	<Compile Include="CP\Wateral\ValoracionCursoCP.cs" />
+			
+			
+			
+			<Compile Include="CP\Wateral\ValoracionCursoCP_ValorarCurso.cs" />
+			
+			
+			
+	<Compile Include="EN\Wateral\LineaPedidoEN.cs" />
+	<Compile Include="CEN\Wateral\LineaPedidoCEN.cs" />
+	<Compile Include="CAD\Wateral\ILineaPedidoCAD.cs" />
+	<Compile Include="CAD\Wateral\LineaPedidoCAD.cs" />
+	<Compile Include="CP\Wateral\LineaPedidoCP.cs" />
+			
+			
+			
+			
+			
+			
+			
+	<Compile Include="EN\Wateral\MatriculaEN.cs" />
+	<Compile Include="CEN\Wateral\MatriculaCEN.cs" />
+	<Compile Include="CAD\Wateral\IMatriculaCAD.cs" />
+	<Compile Include="CAD\Wateral\MatriculaCAD.cs" />
+	<Compile Include="CP\Wateral\MatriculaCP.cs" />
+			
+			
+			
+			
+			
+	<Compile Include="Enumerated\Wateral\TallaEnum.cs" />
+	<Compile Include="Enumerated\Wateral\DeportesEnum.cs" />
+	<Compile Include="Enumerated\Wateral\TipoPagoEnum.cs" />
+	
+	
+
+		    
+	
+
+		    <Compile Include="Properties\AssemblyInfo.cs" />
+		    <Compile Include="Properties\Settings.Designer.cs">
+		      <AutoGen>True</AutoGen>
+		      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+		      <DependentUpon>Settings.settings</DependentUpon>
+		    </Compile>
+		  </ItemGroup>
+		  <ItemGroup>
+		  
+	<EmbeddedResource Include="Mappings\Wateral\userregistrado.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\mensaje.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\alumno.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\profesor.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\curso.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\administrador.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\solicitud_cambio.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\grupo.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\clase.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\noticia.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\cesta.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\lineacesta.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\pedido.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\pago.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\producto.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\tarjeta.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\valoracion.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\valoracionproducto.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\valoracionprofesor.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\valoracioncurso.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\lineapedido.hbm.xml" />
+	<EmbeddedResource Include="Mappings\Wateral\matricula.hbm.xml" />
+	
+	
+
+		  </ItemGroup>
+		  <ItemGroup>
+		    <Content Include="hibernate.cfg.xml">
+		      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		    </Content>
+		  </ItemGroup>
+		  <ItemGroup>
+		    <None Include="app.config" />
+		    <None Include="Properties\Settings.settings">
+		      <Generator>SettingsSingleFileGenerator</Generator>
+		      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+		    </None>
+		        <None Include="Resources\xsd\nhibernate-configuration.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\xsd\nhibernate-mapping.xsd">
+      <SubType>Designer</SubType>
+    </None>
+		  </ItemGroup>
+	 	
+		
+	
+		  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+		  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+		       Other similar extension points exist, see Microsoft.Common.targets.
+		  <Target Name="BeforeBuild">
+		  </Target>
+		  <Target Name="AfterBuild">
+		  </Target>
+		  -->
+		</Project>

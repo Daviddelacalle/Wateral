@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WateralGenNHibernate"
+		                   namespace="WateralGenNHibernate.EN.Wateral">
+		    
+		    
+			
+				
+<joined-subclass name="VelaEN" extends="WateralGenNHibernate.EN.Wateral.CursoEN" table="Vela"> 
+	<key>
+    	
+				<column name="idCurso"/>
+		
+    	
+   	</key>
+
+			
+					
+					<property name="Precio" type="integer"> 
+						<column name="precio"  not-null="true"/>
+					</property>
+					<property name="Duracion" type="integer"> 
+						<column name="duracion"  not-null="true"/>
+					</property>
+			
+			
+			
+					
+					
+		
+ 	  
+		 </joined-subclass>
+		  
+		  <query name="VelaENReadAllHQL">from VelaEN</query>
+		</hibernate-mapping>
+	

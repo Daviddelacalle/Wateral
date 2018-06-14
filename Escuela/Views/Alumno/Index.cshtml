@@ -1,0 +1,54 @@
+﻿@model Escuela.Models.DatosAlumno
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AluLayout.cshtml";
+}
+
+<div class="jumbotron">
+    <h1 class="display-3">Bienvenido @Model.nombre</h1>
+    <p class="lead">Estos son tus detalles como alumno</p>
+    <hr class="my-4">
+    <dt>
+        Tu deporte:
+    </dt>
+    <dd>
+        @Html.DisplayFor(model => model.curso)
+    </dd>
+    <dt>
+        Nivel escogido:
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.nivel)
+    </dd>
+    <dt>
+        Horario:
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.grupo)
+    </dd>
+    <dt>
+        Tu profesor:
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.profesor)
+    </dd>
+    <dt>
+        Siguiente clase:
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.clase)
+    </dd>
+
+    <dt>
+        Hora de inicio:
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.hinicio)
+    </dd>
+</div>

@@ -1,0 +1,14 @@
+﻿@model Escuela.Models.Producto
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>EL PRODUCTO @Html.DisplayFor(model => model.Nombre) SE HA AÑADIDO CORRECTAMENTE</h2>
+<h3>DETALLES DEL PRODUCTO: </h3>
+<p>@Html.DisplayNameFor(model => model.Descripcion) :</p>
+<p>@Html.DisplayFor(model => model.Descripcion)</p>
+<p>@Html.DisplayNameFor(model => model.Precio_compra) :</p>
+<p>@Html.DisplayFor(model => model.Precio_compra)</p>
+<p>@Html.ActionLink("Volver a la tienda", "../producto/index")</p>

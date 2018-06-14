@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Escuela.Models.UserRegistrado>
+
+@{
+    ViewBag.Title = "AIndex";
+    Layout = "~/Views/Shared/_ALayout.cshtml";
+}
+
+<div class="container">
+    <div class="card-box">
+        <h2>Panel de gestión de usuarios</h2>
+        <h4>Gestione los usuarios de la aplicación</h4>
+
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th>
+                    Rol
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Rol)
+                    </td>
+                    <td>
+                        @switch (item.Rol)
+                {
+                    case "Admin":
+                                @Html.ActionLink("Quitar permisos", "CambiarRol", "Admin", routeValues: new { user = item.Email, nrol = "User_registrado", arol = item.Rol }, htmlAttributes: new { @class = "btn btn-danger" })
+                                break;
+
+                            case "Profesor":
+                                @Html.ActionLink("Dar permisos de admin", "CambiarRol", "Admin", routeValues: new { user = item.Email, nrol = "Admin", arol = item.Rol }, htmlAttributes: new { @class = "btn btn-success" })
+                                <span>&nbsp</span>
+                                @Html.ActionLink("Despedir", "CambiarRol", "Admin", routeValues: new { user = item.Email, nrol = "User_registrado", arol = item.Rol }, htmlAttributes: new { @class = "btn btn-danger" })
+                                break;
+
+                            default:
+                                @Html.ActionLink("Dar permisos de admin", "CambiarRol", "Admin", routeValues: new { user = item.Email, nrol = "Admin", arol = item.Rol }, htmlAttributes: new { @class = "btn btn-success" })
+                                <span>&nbsp</span>
+                                @Html.ActionLink("Escalar a profesor", "Create", "Profesor", new { usu = item.Email }, htmlAttributes: new { @class = "btn btn-primary" })
+                                break;
+
+                        }
+
+                    </td>
+                    <td>
+                        @Html.ActionLink("Banear Usuario", "Banear", "Account", routeValues: new { user = item.Email }, htmlAttributes: new { @class = "btn btn-danger" })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+</div>

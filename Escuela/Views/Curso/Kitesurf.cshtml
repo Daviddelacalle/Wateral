@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Escuela.Models.Curso>
+
+@{
+    ViewBag.Title = "Kitesurf";
+    if (ViewBag.Alumno)
+    {
+        Layout = "~/Views/Shared/_AluLayout.cshtml";
+    }
+    else
+    {
+        if (ViewBag.Profesor)
+        {
+            Layout = "~/Views/Shared/_ProfeLayout.cshtml";
+        }
+        else
+        {
+            Layout = "~/Views/Shared/_Layout.cshtml";
+        }
+    }
+}
+
+<h2 class="col-lg-12 text-center" style="margin:25px 0px 20px 0px">Cursos de Kitesurf</h2>
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            if (item.Tipo.ToString() == "kitesurf")
+            {
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="~/Images/@item.Imagen" class="card-img-top img-fluid rounded" alt="@item.Nombre" style="max-height: 195.75px">
+                        <div class="card-body">
+                            <h4 class="card-title">@Html.ActionLink(item.Nombre, "../curso/details/" + item.Id)</h4>
+                            <p class="card-text">Precio @Html.DisplayFor(modelItem => item.Precio)</p>
+                            <p class="card-text">Duración @Html.DisplayFor(modelItem => item.Duracion) horas</p>
+                            @{string enlace = "Contratar/" + item.Id;}
+                            <p><a href=@enlace class="btn btn-primary">Contratar</a></p>
+                        </div>
+
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>

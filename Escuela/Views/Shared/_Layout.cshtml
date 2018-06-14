@@ -1,0 +1,118 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>@ViewBag.Title - Wateral</title>
+
+   
+    @Styles.Render("~/Content/css")
+
+    
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark  text-white bg-info fixed-top" style="background-color:#26C6DA !important;">
+        <div class="container">
+            <a href="~/Home/Index" class="navbar-brand"><img src="~/Images/wlogo.png" class="img-fluid" alt="logo" style="width: 75px; height: 40px"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown text-white">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            @Recursos.Recurso.String1
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                            <a class="dropdown-item" href="~/Curso/Kitesurf">Kitesurf</a>
+                            <a class="dropdown-item" href="~/Curso/Windsurf">Windsurf</a>
+                            <a class="dropdown-item" href="~/Curso/Sup">Paddle Surf</a>
+                            <a class="dropdown-item" href="~/Curso/Vela">@Recursos.Recurso.String2</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Producto/Index">@Recursos.Recurso.String3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Noticia/Index">@Recursos.Recurso.String4</a>
+                    </li>
+
+                    @if (Session["UserName"] == null)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/Account/Login">@Recursos.Recurso.String6</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/Account/Register">@Recursos.Recurso.String7</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/LineaCesta/miLinCesta">@Recursos.Recurso.String22 <span class="cesta badge badge-light">@Html.Action("Badge", "Cesta")</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="~/Mensaje/Index" class="nav-link">@Recursos.Recurso.String24 <span class="mensaje badge badge-light">0</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="~/UserRegistrado/Perfil" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Bienvenido @Session["UserName"].ToString()</a>
+                            
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="~/Pedido/misPedidosCompletos">@Recursos.Recurso.String23</a>
+                                </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/Account/LogOff">@Recursos.Recurso.String33</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    @RenderBody()
+
+    <!-- Footer -->
+    <footer class="py-2 bg-dark fixed-bottom" style="background-color:#78909C !important;">
+        <div class="container">
+            <p class="m-0 text-center text-white">
+                Wateral 2017 &copy; @Recursos.Recurso.String34
+                <a href="~/Home/About">@Recursos.Recurso.String5</a>
+            </p>
+        </div>
+        <!-- /.container -->
+    </footer>
+    @Scripts.Render("~/Scripts/jquery.min.js")
+    @Scripts.Render("~/Scripts/bootstrap.bundle.min.js")
+    <script>
+
+        $(document).ready(function () {
+
+
+
+            function check_mensaje() {
+                var url = "../mensaje/check";
+                var ojo = window.location.href.split("/")
+                if (ojo.length == 6) {
+                    var url = "../../mensaje/check";
+                }
+                $.getJSON(url, {}, function (data) {
+                    $("span.mensaje").html(data.num);
+                });
+            }
+            check_mensaje();
+            setInterval(check_mensaje, 20000);
+
+
+        });
+
+
+    </script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WateralGenNHibernate"
+		                   namespace="WateralGenNHibernate.EN.Wateral">
+		    
+		    
+			
+				<class name="ValoracionEN" table="Valoracion"> 
+				  	
+						<id name="Id_valoracion" column="id_valoración" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Nota" type="integer"> 
+						<column name="nota"  not-null="true"/>
+					</property>
+					<property name="Comentario" type="string"> 
+						<column name="comentario" />
+					</property>
+			
+			
+			
+			
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="ValoracionENReadAllHQL">from ValoracionEN</query>
+		</hibernate-mapping>
+	

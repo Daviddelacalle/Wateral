@@ -1,0 +1,184 @@
+﻿@using Escuela.Models
+
+@{
+    ViewBag.Title = "Details";
+    if (ViewBag.Alumno)
+    {
+        Layout = "~/Views/Shared/_AluLayout.cshtml";
+    }
+    else
+    {
+        if (ViewBag.Profesor)
+        {
+            Layout = "~/Views/Shared/_ProfeLayout.cshtml";
+        }
+        else
+        {
+            Layout = "~/Views/Shared/_Layout.cshtml";
+        }
+    }
+
+    Producto model = ViewData["Producto"] as Producto;
+    IList<ValoracionProducto> val = ViewData["Valoracion"] as IList<ValoracionProducto>;
+    Session["Alquiler"] = model.id;
+}
+
+<h2 class="my-4 text-center"> @Html.DisplayFor(modelItem => model.Nombre)</h2>
+
+<div class="container-fluid" style="padding: 0 15% 0 15%;">
+    <div class="row">
+        <div class="col-lg-4 mb-4">
+            <div class="display-field">
+                <img src="~/Images/Productos/@Html.DisplayFor(modelItem => model.Imagen)" class="figure-img img-fluid rounded">
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4 bg-light" style="padding: 30px 0 30px 0;display: flex; flex-direction: column; align-items: center;">
+            <h3>Descripción: </h3>
+            @{string color_media = "text-primary";
+        if ((int)ViewData["Media"] > 7)
+        {
+            color_media = "text-success";
+        }
+        else
+        {
+            if ((int)ViewData["Media"] < 5)
+            {
+                color_media = "text-danger";
+            }
+        }
+            }
+            <p style="padding: 4px 10px 0 10px"> @Html.DisplayFor(modelItem => model.Descripcion)</p>
+            @{
+                string link = "/VProducto/Create/";
+
+            }
+
+            <form id="myForm2" action="~/VProducto/Valorar" method="Post">
+                <label for="nota">Nota: </label>
+                <br />
+                    <input type="number" name="nota" value="5" min="0" max="10" />
+                
+                <p></p>
+                <label for="comentario">Comentario: </label>
+                <p>
+                    <input type="text" name="comentario" />
+                </p>
+                <p></p>
+                <input 
+                       @{
+                           if (ViewBag.ban_val == false)
+                           {
+                               @:disabled
+                           }
+                       }
+                       
+                       type="submit" class="btn btn-info" value="Valorar" />
+            </form>
+
+
+
+            <h2 style="float:right; margin-top: 15px;" class=@color_media> General: @Html.DisplayName(ViewData["Media"].ToString())</h2>
+            <p></p>
+
+            <div class="row" style="padding: 0 8px 5px 8px">
+                <div class="col-lg-12 mb-12">
+                    @foreach (var v in val)
+            {
+                <div class="card h-40">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h6>
+                                   @Html.DisplayFor(modelItem => v.usuario)
+                                </h6>
+                            </div>
+                            <div class="col-lg-6">
+                                @{string color = "text-primary";
+                            if (v.nota > 7)
+                            {
+                                color = "text-success";
+                            }
+                            else
+                            {
+                                if (v.nota < 5)
+                                {
+                                    color = "text-danger";
+                                }
+                            }
+                                }
+                                <h1 class="text-primary @color" style="float:right">
+                                   @Html.DisplayFor(modelItem => v.nota)
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <h5>
+                                @Html.DisplayFor(modelItem => v.comentario)
+                            </h5>
+                        </div>
+                        @{
+                            if (v.usuario.Equals(Session["UserName"].ToString()))
+                            {
+
+                                <div class="col-lg-12 text-center">
+                                    @Html.ActionLink("Borrar", "../Vproducto/Delete", new { val = v.id })
+                                </div>
+
+                            }
+                        }
+                    </div>
+                </div>
+    }
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-30 w-100 text-center">
+                <div class="card-header">
+                    <h4>Precio de compra</h4>
+                </div>
+                <div class="card-body">
+                    <h2>@Html.DisplayFor(modelItem => model.Precio_compra) €</h2>
+                    <p></p>
+                    <form id="myForm2" action="~/Cesta/Create" method="Post">
+                        <label for="cantitad">Cantidad: </label>
+                        @{ 
+                            string stock = model.stock.ToString();
+                        }
+                        <input type="number" name="cantidad" value="1" min="1" max=@stock  />
+                        @{ 
+                            string enlace = model.id.ToString();
+                        }
+                        <input hidden type="number" name="id" value=@enlace />
+                        <p></p>
+                        <input type="submit" class="btn btn-primary" value="AÑADIR A LA CESTA"/>
+                    </form>
+                    @{
+//string enlace = "/Cesta/Create/" + model.id;
+//<a href=@enlace class="btn btn-primary" style="margin-left: 4px">AÑADIR A LA CESTA</a>
+                    }
+                </div>
+            </div>
+            <p></p>
+            <div class="card h-70 w-100 text-center">
+                <div class="card-header">
+                    <h4>Precio de alquiler</h4>
+                </div>
+                <div class="card-body">
+                    <h2>@Html.DisplayFor(modelItem => model.Precio_alquiler) €/Dia</h2>
+                    <p></p>
+                    <form id="myForm" action="~/Cesta/Alquilar" method="Post">
+                        <label for="cantidad">Cantidad: </label>
+                        <input type="number" name="cantidad" value="1" min="1" max=@stock />
+                        <p></p>
+                        <label for="dias">Días de alquiler: </label>
+                        <input type="number" name="dias" value="1" min="1" max="31"/>
+                        <p></p>
+                        <input type="submit" class="btn btn-primary" value="ALQUILAR" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

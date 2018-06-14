@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WateralGenNHibernate"
+		                   namespace="WateralGenNHibernate.EN.Wateral">
+		    
+		    
+			
+				<class name="LineaCestaEN" table="LineaCesta"> 
+				  	
+						<id name="Linea" column="lineaLineaCesta" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Cantidad" type="integer"> 
+						<column name="cantidad"  not-null="true"/>
+					</property>
+					<property name="Dias" type="integer"> 
+						<column name="dias"  not-null="true"/>
+					</property>
+					<property name="Precio" type="double"> 
+						<column name="precio"  not-null="true"/>
+					</property>
+			
+			
+		  			
+						<many-to-one name="Cesta" class="WateralGenNHibernate.EN.Wateral.CestaEN" >	
+								<column name="FK_idCesta_idCesta"/> 
+						</many-to-one>
+											 					
+			
+			
+		  			
+					
+							   <one-to-one name="LineaPedido" class="WateralGenNHibernate.EN.Wateral.LineaPedidoEN" property-ref="LineaCesta" />							
+					 
+						
+			
+			
+			
+			
+		  			
+						<many-to-one name="Producto" class="WateralGenNHibernate.EN.Wateral.ProductoEN" >	
+								<column name="FK_idProducto_idProducto"/> 
+						</many-to-one>
+											 					
+					
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="LineaCestaENReadAllHQL">from LineaCestaEN</query>
+		</hibernate-mapping>
+	

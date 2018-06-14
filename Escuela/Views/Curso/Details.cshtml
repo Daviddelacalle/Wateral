@@ -1,0 +1,164 @@
+﻿@model Escuela.Models.Curso
+
+@{
+    ViewBag.Title = "Details";
+    if (ViewBag.Alumno)
+    {
+        Layout = "~/Views/Shared/_AluLayout.cshtml";
+    }
+    else
+    {
+        if (ViewBag.Profesor)
+        {
+            Layout = "~/Views/Shared/_ProfeLayout.cshtml";
+        }
+        else
+        {
+            Layout = "~/Views/Shared/_Layout.cshtml";
+        }
+    }
+}
+
+
+<div class="jumbotron">
+
+    @if (Model.Nombre.Equals("Iniciación") && Model.Tipo.ToString() == "kitesurf")
+    {
+
+        <h1 class="display-3">@Html.DisplayFor(model => model.Nombre)</h1>
+        <p class="lead">Curso de introducción dirigido a todos aquellos que se inician al deporte por primera vez. Este curso es una buena toma de contacto para conocer las posibilidades que te ofrece este apasionante deporte.</p>
+            <hr class="my-4">
+
+            <p>  Los objetivos operativos que vas a conseguir son:</p>
+            <ul>
+                <li>Reconocer un espacio seguro y las condiciones meteorológicas.</li>
+                <li>Reconocer las diferentes partes del equipo básico y sus funciones básicas.</li>
+                <li>Montar, desmontar un equipo y transportar la cometa, responsabilizándote del material.</li>
+                <li>Comprender la teoría básica de vuelo de la cometa y controlar la cometa sin tracción en todas las zonas de la ventana.</li>
+                <li>Controlar una cometa en tierra con tracción leve (4 / 5 líneas).</li>
+                <li>Controlar la cometa en el cenit y por borde de la ventana con el cuerpo a flote, y desplazarte lateralmente con el cuerpo estirado con la cometa en el borde de la ventana.</li>
+                <li>Relanzar la cometa desde el agua. Recoger las líneas a flote y utilizar la cometa flotando para volver a tierra(auto rescate)</li>
+                <li>Realizar el body - drag asistido (generar potencia (ochos - media ventana) deslizando el cuerpo estirado y boca abajo por el agua) </li>
+            </ul>
+
+    }
+    @if (Model.Nombre.Equals("Perfeccionamiento") && Model.Tipo.ToString() == "kitesurf")
+    {
+        <h1 class="display-3">@Html.DisplayFor(model => model.Nombre)</h1>
+        <p class="lead">Curso de perfeccionamiento dirigido a todos aquellos que han terminado el curso de iniciación y quieren dar un paso más allá en este deporte.</p>
+        <hr class="my-4">
+        <p>  Los objetivos operativos que vas a conseguir son:</p>
+            <ul>
+                <li>Control a una mano de la cometa</li>
+                <li>Despegue y aterrizaje de cometa en tierra</li>
+                <li>Acceso al agua con cometa con seguridad</li>
+                <li>Aprenderás a ponerte la tabla</li>
+                <li>Control de equilibrio del cuerpo con tabla</li>
+                <li>Steady Pull</li>
+                <li>Water Start</li>
+            </ul>
+    }
+    @if (Model.Nombre.Equals("Freestyle") && Model.Tipo.ToString() == "kitesurf")
+    {
+        <h1 class="display-3">@Html.DisplayFor(model => model.Nombre)</h1>
+        <p class="lead">Curso de perfeccionamiento dirigido a todos aquellos que han terminado el curso de iniciación y quieren dar un paso más allá en este deporte.</p>
+        <hr class="my-4">
+        <p>  Los objetivos operativos que vas a conseguir son:</p>
+        <ul>
+            <li>Control a una mano de la cometa</li>
+            <li>Despegue y aterrizaje de cometa en tierra</li>
+            <li>Acceso al agua con cometa con seguridad</li>
+            <li>Aprenderás a ponerte la tabla</li>
+            <li>Control de equilibrio del cuerpo con tabla</li>
+            <li>Steady Pull</li>
+            <li>Water Start</li>
+        </ul>
+    }
+
+    @if (Model.Nombre.Equals("Iniciación") && Model.Tipo.ToString() == "windsurf")
+    {
+        <h1 class="display-3">@Html.DisplayFor(model => model.Nombre)</h1>
+        <p class="lead">Curso de iniciación dirigido a todo aquel que desee empezar en este deporte.</p>
+        <hr class="my-4">
+        <p>  Los objetivos operativos que vas a conseguir son:</p>
+        <ul>
+            <li>Diferenciar y conocer las partes de la tabla y de la vela.</li>
+            <li>Alzar la vela y navegar con rumbos de empopada</li>
+            <li>Acceso al agua con el material con seguridad</li>
+            <li>Control de equilibrio del cuerpo con tabla</li>
+            <li>Montaje y desmontaje del material</li>
+            <li>Correcta recogida y transporte del mismo</li>
+        </ul>
+    }
+
+    @if (Model.Nombre.Equals("Avanzado") && Model.Tipo.ToString() == "windsurf")
+    {
+        <h1 class="display-3">@Html.DisplayFor(model => model.Nombre)</h1>
+        <p class="lead">Curso de perfeccionamiento dirigido a todos aquellos que han terminado el curso de iniciación y quieren dar un paso más allá en este deporte.</p>
+        <hr class="my-4">
+        <p>  Los objetivos operativos que vas a conseguir son:</p>
+        <ul>
+            <li>Navegar con vientos más complejos</li>
+            <li>Planeos y saltos</li>
+            <li>Primeros trucos</li>
+            <li>Beachstart</li>
+            <li>Navegar con arnés</li>
+        </ul>
+    }
+    @if (Model.Nombre.Equals("Iniciación") && Model.Tipo.ToString() == "sup")
+    {
+        <h1 class="display-3">@Html.DisplayFor(model => model.Nombre)</h1>
+        <p class="lead">Curso de iniciación para aquellas personas que estén interesadas en conocer el SUP.</p>
+        <hr class="my-4">
+        <p>  Los objetivos operativos que vas a conseguir son:</p>
+        <ul>
+            <li>Diferenciar partes de la tabla y remo.</li>
+            <li>Transportar el material.</li>
+            <li>Navegar y mantener el equilibrio.</li>
+        </ul>
+    }
+    @if (Model.Nombre.Equals("Olas") && Model.Tipo.ToString() == "sup")
+    {
+        <h1 class="display-3">@Html.DisplayFor(model => model.Nombre)</h1>
+        <p class="lead">Curso de SUP con olas para aquellas personas que tras superar el curso de iniciación, busquen surfear olas con el SUP.</p>
+        <hr class="my-4">
+        <p>  Los objetivos operativos que vas a conseguir son:</p>
+        <ul>
+            <li>Mejorar tu equilibrio en la tabla.</li>
+            <li>Aprender a conocer las olas, cómo cogerlas y como superarlas.</li>
+            <li>Conocer y saber aplicar los distintos tipos de remada.</li>
+        </ul>
+    }
+    @if (Model.Nombre.Equals("Básico") && Model.Tipo.ToString() == "vela")
+    {
+        <h1 class="display-3">@Html.DisplayFor(model => model.Nombre)</h1>
+        <p class="lead">Curso de iniciación para aprender a manejar un velero pequeño.</p>
+        <hr class="my-4">
+        <p>  Los objetivos operativos que vas a conseguir son:</p>
+        <ul>
+            <li>Diferenciar partes de la embarcación.</li>
+            <li>Aprender a navegar con distintos ruumbos.</li>
+            <li>Conocer y saber manejar los distintos tipos de velas disponibles en la embarcación.</li>
+        </ul>
+    }
+    <h3 class="display-label lead">
+        Duración @Html.DisplayFor(model => model.Duracion) horas
+    </h3>
+    <h3 class="display-label lead">
+        @Html.DisplayNameFor(model => model.Precio) @Html.DisplayFor(model => model.Precio) euros
+    </h3>
+    @if (Session["UserName"] == null)
+    {
+        <p class="lead">
+            <a href="~/Account/Login" class="btn btn-primary btn-lg" role="button">Iniciar Sesión</a>
+        <p>Debes iniciar sesión para contratar el curso</p>
+        </p>
+    }
+    else
+    {
+        <p class="lead">
+            <a href="~/Alumno/Create" class="btn btn-primary btn-lg" role="button">Contratar</a>
+        </p>
+    }
+</div>
+

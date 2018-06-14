@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WateralGenNHibernate"
+		                   namespace="WateralGenNHibernate.EN.Wateral">
+		    
+		    
+			
+				<class name="UserRegistradoEN" table="UserRegistrado"> 
+						<id name="Email" column="email"/> 
+			
+					
+					<property name="Usuario" type="string"> 
+						<column name="usuario"  unique="true" not-null="true"/>
+					</property>
+					<property name="Nombre" type="string"> 
+						<column name="nombre"  not-null="true"/>
+					</property>
+					<property name="Apellidos" type="string"> 
+						<column name="apellidos"  not-null="true"/>
+					</property>
+					<property name="Contrasenya" type="string"> 
+						<column name="contrasenya"  not-null="true"/>
+					</property>
+					<property name="Telefono" type="string"> 
+						<column name="telefono" />
+					</property>
+					<property name="Nacimiento" type="date"> 
+						<column name="nacimiento"  not-null="true"/>
+					</property>
+					<property name="Calle" type="string"> 
+						<column name="calle" />
+					</property>
+					<property name="Ciudad" type="string"> 
+						<column name="ciudad" />
+					</property>
+					<property name="Codpostal" type="string"> 
+						<column name="codpostal" />
+					</property>
+					<property name="Provincia" type="string"> 
+						<column name="provincia" />
+					</property>
+					<property name="Credito" type="string"> 
+						<column name="credito" />
+					</property>
+					<property name="Imagen" type="string"> 
+						<column name="imagen"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		  			
+					
+							<many-to-one name="Cestas" class="WateralGenNHibernate.EN.Wateral.CestaEN" >
+								<column name="FK_idCesta_idCestas"/> 
+        					</many-to-one>
+					 
+						
+			
+		  			
+						<bag name="ValoracionesProducto" >
+							<key>
+							
+								
+								<column name="FK_email_idUserRegistrado"/>
+					      	</key>
+							<one-to-many class="WateralGenNHibernate.EN.Wateral.ValoracionProductoEN"/>
+					    </bag>
+					
+			
+		  			
+					
+							   <one-to-one name="Alumno" class="WateralGenNHibernate.EN.Wateral.AlumnoEN" property-ref="UserRegistrado" />							
+					 
+						
+			
+		  			
+						<bag name="Mensajes" >
+							<key>
+							
+								
+								<column name="FK_email_idUserRegistrado"/>
+					      	</key>
+							<one-to-many class="WateralGenNHibernate.EN.Wateral.MensajeEN"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="Mensajes_0" >
+							<key>
+							
+								
+								<column name="FK_email_idUserRegistrado_0"/>
+					      	</key>
+							<one-to-many class="WateralGenNHibernate.EN.Wateral.MensajeEN"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="Pedidos" >
+							<key>
+							
+								
+								<column name="FK_email_idUserRegistrado"/>
+					      	</key>
+							<one-to-many class="WateralGenNHibernate.EN.Wateral.PedidoEN"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="Tarjetas" >
+							<key>
+							
+								
+								<column name="FK_email_idUserRegistrado"/>
+					      	</key>
+							<one-to-many class="WateralGenNHibernate.EN.Wateral.TarjetaEN"/>
+					    </bag>
+					
+			
+			
+		  			
+					
+							   <one-to-one name="Profesor" class="WateralGenNHibernate.EN.Wateral.ProfesorEN" property-ref="UserRegistrado" />							
+					 
+						
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="UserRegistradoENReadAllHQL">from UserRegistradoEN</query>
+		</hibernate-mapping>
+	

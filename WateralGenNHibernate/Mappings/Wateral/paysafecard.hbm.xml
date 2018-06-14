@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WateralGenNHibernate"
+		                   namespace="WateralGenNHibernate.EN.Wateral">
+		    
+		    
+			
+				
+<joined-subclass name="PaySafeCardEN" extends="WateralGenNHibernate.EN.Wateral.PagoEN" table="PaySafeCard"> 
+	<key>
+    	
+				<column name="idPago"/>
+		
+    	
+   	</key>
+
+			
+					
+					<property name="Codigo" type="string"> 
+						<column name="codigo"  not-null="true"/>
+					</property>
+			
+			
+					
+		
+ 	  
+		 </joined-subclass>
+		  
+		  <query name="PaySafeCardENReadAllHQL">from PaySafeCardEN</query>
+		</hibernate-mapping>
+	

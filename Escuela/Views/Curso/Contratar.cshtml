@@ -1,0 +1,51 @@
+﻿@model Escuela.Models.Curso
+
+@{
+    ViewBag.Title = "Contratar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron" style="margin: 100px 25%">
+    <h4 class="text-center">Curso @Html.DisplayFor(model => model.Nombre)</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt class="text-center">
+            @Html.DisplayNameFor(model => model.Precio)
+        </dt>
+
+        <dd class="text-center">
+            @Html.DisplayFor(model => model.Precio) euros
+        </dd>
+
+        <dt class="text-center">
+            @Html.DisplayNameFor(model => model.Duracion)
+        </dt>
+
+        <dd class="text-center">
+            @Html.DisplayFor(model => model.Duracion) horas
+        </dd>
+
+        <dd class="text-center">
+            @{
+                string link = "/Images/";
+                <img style="max-width: -webkit-fill-available; max-width: -moz-available;" src=@link@Html.DisplayFor(model => model.Imagen) />
+            }
+        </dd>
+    </dl>
+
+    <div class="paypaldiv float-right">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_xclick">
+            <input type="hidden" name="upload" value="1">
+            <input type="hidden" name="business" value="antoniorv6-facilitator@gmail.com">
+            <input type="hidden" name="item_name" value="@Model.Nombre">
+            <input type="hidden" name="amount" value="0.01">
+            <input type="hidden" name="quantity" value="1">
+            <input type="hidden" name="currency_code" value="EUR">
+            <input type="hidden" name="return" value="https://localhost:44339//Alumno//Create">
+            <input type="hidden" name="cancel_return" value="https://localhost:44339//Home" />
+            <input class="btn btn-primary" type="submit" value="PayPal">
+        </form>
+    </div>
+</div>

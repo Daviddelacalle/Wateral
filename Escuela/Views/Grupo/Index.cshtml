@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Escuela.Models.GrupoModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_ALayout.cshtml";
+}
+
+<div class="container">
+    <div class="card-box">
+
+        <h2>Lista de grupos</h2>
+<!--
+        <p>
+            @Html.ActionLink("Create New", "Create")
+        </p>
+    -->
+    <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.curso)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.nivel)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.profesor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.horario)
+                </th>
+                <th>
+                    Alumnos
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.curso)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.nivel)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.profesor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.horario)
+                    </td>
+                    <td>
+                        @foreach (string alumno in item.alumnos)
+                {
+                            <p>@alumno</p>
+                        }
+                    </td>
+                    <td>@Html.ActionLink("Finalizar Curso", "Finalizar", "Grupo", routeValues: new { id = item.id }, htmlAttributes: new { @class = "btn btn-primary" })</td>
+                </tr>
+            }
+
+        </table>
+
+
+
+    </div>
+
+    @{
+        string link = "/Grupo/Create";
+        <a href=@link class="btn btn-primary" style="float: right">Nuevo grupo</a>
+
+    }
+    <br />
+    <br />
+    <br />
+</div>

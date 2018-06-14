@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WateralGenNHibernate"
+		                   namespace="WateralGenNHibernate.EN.Wateral">
+		    
+		    
+			
+				
+<joined-subclass name="ValoracionProductoEN" extends="WateralGenNHibernate.EN.Wateral.ValoracionEN" table="ValoracionProducto"> 
+	<key>
+    	
+				<column name="id_valoración"/>
+		
+    	
+   	</key>
+
+			
+					
+			
+			
+		  			
+						<many-to-one name="UserRegistrado" class="WateralGenNHibernate.EN.Wateral.UserRegistradoEN" >	
+								<column name="FK_email_idUserRegistrado"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<many-to-one name="Producto" class="WateralGenNHibernate.EN.Wateral.ProductoEN" >	
+								<column name="FK_idProducto_idProducto"/> 
+						</many-to-one>
+											 					
+					
+					
+		
+ 	  
+		 </joined-subclass>
+		  
+		  <query name="ValoracionProductoENReadAllHQL">from ValoracionProductoEN</query>
+		</hibernate-mapping>
+	

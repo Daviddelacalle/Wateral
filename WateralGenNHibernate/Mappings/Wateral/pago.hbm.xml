@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WateralGenNHibernate"
+		                   namespace="WateralGenNHibernate.EN.Wateral">
+		    
+		    
+			
+				<class name="PagoEN" table="Pago"> 
+				  	
+						<id name="Id" column="idPago" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Tipo" > 
+						<column name="tipo"  not-null="true"/>
+					</property>
+			
+			
+		  			
+					
+							<many-to-one name="Pedido" class="WateralGenNHibernate.EN.Wateral.PedidoEN" >
+								<column name="FK_idPedido_idPedidos"/> 
+        					</many-to-one>
+					 
+						
+			
+			
+			
+		  			
+						<many-to-one name="Tarjeta" class="WateralGenNHibernate.EN.Wateral.TarjetaEN" >	
+								<column name="FK_numero_idTarjeta"/> 
+						</many-to-one>
+											 					
+			
+		  			
+					
+							<many-to-one name="Matricula" class="WateralGenNHibernate.EN.Wateral.MatriculaEN" >
+								<column name="FK_idMatricula_idMatricula"/> 
+        					</many-to-one>
+					 
+						
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="PagoENReadAllHQL">from PagoEN</query>
+		</hibernate-mapping>
+	

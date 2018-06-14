@@ -1,0 +1,28 @@
+﻿@model Escuela.Models.UserRegistrado
+
+@{
+    ViewBag.Title = "Perfil";
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<div style="width: 300px; height:600px; margin: 0 auto;">
+    <h4 style="padding-top: 15px; text-align:center">Tu perfil</h4>
+    <hr />
+    <div class="card h-100 w-70 text-center">
+        <div class="card-header">
+            <h4>Usuario: @Html.DisplayFor(model => model.Nombre)</h4>
+        </div>
+        <div class="card-body" style="display: flex; flex-direction: column; align-content: center;">
+            <h5>Rol: @Html.DisplayFor(model => model.Rol)</h5>
+            @{string foto = "../Images/Perfiles/" + Model.Fotoperfil;}
+            <div class="img-thumbnail">
+                <img src=@foto width="200" height="200" />
+            </div>
+            @Html.DisplayFor(model => model.Email)
+
+
+        </div>
+    </div>
+</div>

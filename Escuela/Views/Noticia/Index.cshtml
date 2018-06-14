@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Escuela.Models.Noticia>
+
+@{
+    ViewBag.Title = "Index";
+    
+    if (ViewBag.Alumno)
+    {
+        Layout = "~/Views/Shared/_AluLayout.cshtml";
+    }
+    else
+    {
+        if (ViewBag.Profesor)
+        {
+            Layout = "~/Views/Shared/_ProfeLayout.cshtml";
+        }
+        else
+        {
+            Layout = "~/Views/Shared/_Layout.cshtml";
+        }
+    }
+}
+
+<h1 class="my-4 text-center">NOTICIAS</h1>
+<h3 class="my-4 text-center">Lea las últimas noticias de Wateral</h3>
+
+<div class="container col-sm-10">
+    <div class="jumbotron">
+        <div class="container-fluid" style="padding: 0 0 40px 0">
+            <div class="row-fluid">
+                <div class="row">
+                    @foreach (var item in Model)
+            {
+                        <div class="col-lg-4 mb-4">
+                            <div class="card h-100 text-center">
+                                <h4 class="card-header bg-info" style="color: white;">@Html.DisplayFor(modelItem => item.Titulo)</h4>
+                                <div class="card-body">
+                                    <figure class="figure">
+                                        @{
+                                            string enlace = "../Noticia/Details/" + item.id;
+
+                                            <a href=@enlace> <img src="~/Images/Noticias/@item.Imagen" class="card-img-top" alt="@item.Titulo"></a>
+                                        }
+                                    </figure>
+                                    <p class="card-text">@Html.DisplayFor(modelItem => item.Texto).ToString().Substring(0, 100)...</p>
+                                    
+                       
+                                </div>
+                                <div class="card-footer">
+                                    @{
+                                        <a href=@enlace class="btn white" style=" background-color: grey; color: white;">Leer Noticia </a>
+                                    }
+
+                                </div>
+                            </div>
+                        </div>
+                                        }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

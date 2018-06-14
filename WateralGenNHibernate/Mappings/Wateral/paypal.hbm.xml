@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WateralGenNHibernate"
+		                   namespace="WateralGenNHibernate.EN.Wateral">
+		    
+		    
+			
+				
+<joined-subclass name="PaypalEN" extends="WateralGenNHibernate.EN.Wateral.PagoEN" table="Paypal"> 
+	<key>
+    	
+				<column name="idPago"/>
+		
+    	
+   	</key>
+
+			
+					
+					<property name="Usuario" type="string"> 
+						<column name="usuario"  not-null="true"/>
+					</property>
+					<property name="Password" type="string"> 
+						<column name="password"  not-null="true"/>
+					</property>
+			
+			
+			
+					
+					
+		
+ 	  
+		 </joined-subclass>
+		  
+		  <query name="PaypalENReadAllHQL">from PaypalEN</query>
+		</hibernate-mapping>
+	

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WateralGenNHibernate"
+		                   namespace="WateralGenNHibernate.EN.Wateral">
+		    
+		    
+			
+				<class name="CestaEN" table="Cesta"> 
+				  	
+						<id name="Id" column="idCesta" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+			
+			
+		  			
+					
+							   <one-to-one name="Usuario_Regist" class="WateralGenNHibernate.EN.Wateral.UserRegistradoEN" property-ref="Cestas" />							
+					 
+						
+			
+		  			
+						<bag name="LineasCesta" cascade="delete">
+							<key>
+							
+								
+								<column name="FK_idCesta_idCesta"/>
+					      	</key>
+							<one-to-many class="WateralGenNHibernate.EN.Wateral.LineaCestaEN"/>
+					    </bag>
+					
+			
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="CestaENReadAllHQL">from CestaEN</query>
+		</hibernate-mapping>
+	

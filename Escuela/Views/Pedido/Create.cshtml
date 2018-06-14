@@ -1,0 +1,97 @@
+﻿@using Escuela.Models
+
+
+@{
+    ViewBag.Title = "Mis Pedidos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    PedidoCompleto item = ViewData["Pedidos"] as PedidoCompleto;
+}
+
+</br></br>
+
+
+    <div class="container col-sm-10">
+        <div class="jumbotron">
+            <div class="card ">
+                <div class="card-header bg-secondary">
+                    <div class="row">
+                        <div class="col text-center">
+                            <b>Fecha: </b>@Html.DisplayFor(modelItem => item.Fecha)
+                        </div>
+                        <div class="col text-center">
+                            <b>Precio: </b>@Html.DisplayFor(modelItem => item.Precio)€
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col">
+                            @{
+                                IList<Pedido> lineas = ViewData[item.Id.ToString()] as IList<Pedido>;
+                                <table class="table">
+                                    <tr class="table-active">
+                                        <th>
+                                            Producto
+                                        </th>
+                                        <th>
+                                            Nombre
+                                        </th>
+                                        <th>
+                                            Cantidad
+                                        </th>
+                                        <th>
+                                            Precio
+                                        </th>
+                                        <th>
+                                            Dias
+                                        </th>
+                                        <th></th>
+                                    </tr>
+
+                                    @foreach (var lin in lineas)
+                                    {
+                                        <tr @{ if (lin.Dias != -1) { @: class="table-info"
+                                                                    } }>
+                                            <td class="align-middle">
+                                                <img height="90" width="180" src="~/Images/Productos/@Html.DisplayFor(model => lin.Imagen)" />
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => lin.Nombre)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => lin.Cantidad)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => lin.Precio)€
+                                            </td>
+                                            <td>
+                                                @if (lin.Dias != -1)
+                                                {
+                                                    Html.DisplayFor(modelItem => lin.Dias);
+                                                    <text>@lin.Dias </text>
+                                                }
+                                                else
+                                                {
+                                                    @:-
+                            }
+
+                                            </td>
+
+
+                                        </tr>
+    }
+
+                                </table>
+                            }
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+                                

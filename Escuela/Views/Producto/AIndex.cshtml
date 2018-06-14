@@ -1,0 +1,80 @@
+﻿@model IEnumerable<Escuela.Models.Producto>
+
+@{
+    ViewBag.Title = "Index de productos";
+    Layout = "~/Views/Shared/_ALayout.cshtml";
+}
+
+<div class="card-box">
+    <h2 class="header-title m-t-0">Listado de productos</h2>
+
+    @{ if (Session["ProdEliminado"] != null && Session["ProdEliminado"].Equals("true"))
+        {
+            <p style="color: red">- El producto ha sido eliminado correctamente</p>
+            Session["ProdEliminado"] = null;
+        }
+    }
+    <div class="widget-chart text-center">
+        <table class="table">
+            <tr class="text-center">
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.stock)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Descripcion)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Precio_compra)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Precio_alquiler)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Imagen)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.stock)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descripcion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Precio_compra)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Precio_alquiler)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Imagen)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.id })
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+
+
+    @{
+        string link = "/Producto/Create";
+        <a href=@link class="btn btn-primary" style="float: right">Nuevo producto</a>
+
+    }
+
+</div>
+

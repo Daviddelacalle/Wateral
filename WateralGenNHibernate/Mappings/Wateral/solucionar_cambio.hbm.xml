@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WateralGenNHibernate"
+		                   namespace="WateralGenNHibernate.EN.Wateral">
+		    
+		    
+			
+				<class name="Solucionar_CambioEN" table="Solucionar_Cambio"> 
+				  	
+						<id name="Id" column="idSolucionar_Cambio" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+			
+			
+		  			
+						<bag name="Alumnos" table="[solucionar_Cambio_alumno]"  >
+							<key>
+								
+									<column name="FK_idSolucionar_Cambio_idSolucionar_Cambio"/> 
+							</key>
+      						<many-to-many class="WateralGenNHibernate.EN.Wateral.AlumnoEN">
+									<column name="FK_email_idAlumno"/> 
+      						</many-to-many>
+    					</bag>
+			
+		  			
+						<many-to-one name="Grupo" class="WateralGenNHibernate.EN.Wateral.GrupoEN" >	
+								<column name="FK_idGrupo_idGrupo"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<bag name="Grupo_0" table="[grupo_0_solucionar_Cambio_0]" inverse="true" >
+							<key>
+								
+									<column name="FK_idSolucionar_Cambio_idSolucionar_Cambio_0"/> 
+							</key>
+      						<many-to-many class="WateralGenNHibernate.EN.Wateral.GrupoEN">
+									<column name="FK_idGrupo_idGrupo_0"/> 
+      						</many-to-many>
+    					</bag>
+			
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="Solucionar_CambioENReadAllHQL">from Solucionar_CambioEN</query>
+		</hibernate-mapping>
+	

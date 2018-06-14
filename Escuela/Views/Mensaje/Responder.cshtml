@@ -1,0 +1,66 @@
+﻿@model Escuela.Models.Mensaje
+
+@{
+    ViewBag.Title = "Responder";
+
+    if (ViewBag.Alumno)
+    {
+        Layout = "~/Views/Shared/_AluLayout.cshtml";
+    }
+    else
+    {
+        if (ViewBag.Profesor)
+        {
+            Layout = "~/Views/Shared/_ProfeLayout.cshtml";
+        }
+        else
+        {
+            Layout = "~/Views/Shared/_Layout.cshtml";
+        }
+    }
+}
+
+<h2>Responder</h2>
+
+
+@using (Html.BeginForm(Html.BeginForm("Responder", "Mensaje", FormMethod.Post)))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.Fecha)
+    @Html.HiddenFor(model => model.Emisor)
+
+    <div class="form-horizontal">
+        <h4>Mensaje</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Receptor, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Receptor, new { htmlAttributes = new { @class = "form-control", @Value = ViewData["Receptor"].ToString(), @readonly = "readonly" } })
+                @Html.ValidationMessageFor(model => model.Receptor, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Texto, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.Texto, 15, 150, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Texto, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Enviar" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Volver a Mensajes", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

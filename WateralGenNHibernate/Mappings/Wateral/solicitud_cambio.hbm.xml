@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WateralGenNHibernate"
+		                   namespace="WateralGenNHibernate.EN.Wateral">
+		    
+		    
+			
+				<class name="Solicitud_cambioEN" table="Solicitud_cambio"> 
+				  	
+						<id name="Id" column="idSolicitud_cambio" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Validado" type="boolean"> 
+						<column name="validado"  not-null="true"/>
+					</property>
+			
+			
+			
+			
+		  			
+						<many-to-one name="Alumno" class="WateralGenNHibernate.EN.Wateral.AlumnoEN" >	
+								<column name="FK_idalumno_idAlumno"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<many-to-one name="Grupo" class="WateralGenNHibernate.EN.Wateral.GrupoEN" >	
+								<column name="FK_idGrupo_idGrupo"/> 
+						</many-to-one>
+											 					
+			
+		  			
+						<many-to-one name="Grupo_0" class="WateralGenNHibernate.EN.Wateral.GrupoEN" >	
+								<column name="FK_idGrupo_idGrupo_0"/> 
+						</many-to-one>
+											 					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="Solicitud_cambioENReadAllHQL">from Solicitud_cambioEN</query>
+		</hibernate-mapping>
+	

@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Escuela.Models.Curso>
+
+@{
+    ViewBag.Title = "Index";
+    if (ViewBag.Alumno)
+    {
+        Layout = "~/Views/Shared/_AluLayout.cshtml";
+    }
+    else
+    {
+        if (ViewBag.Profesor)
+        {
+            Layout = "~/Views/Shared/_ProfeLayout.cshtml";
+        }
+        else
+        {
+            Layout = "~/Views/Shared/_Layout.cshtml";
+        }
+    }
+}
+
+<div class="container">
+    <h1 class="my-4">Cursos</h1>
+    <!-- Deportes -->
+    <div class="row">
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">Kitesurf</h4>
+                <div class="card-body">
+                    <img src="~/Images/mini2.jpg" style="height: 200px; width: 300px" />
+                </div>
+                <div class="card-footer">
+                    <a href="~/Curso/Kitesurf" class="btn btn-primary">Más info</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">Windsurf</h4>
+                <div class="card-body">
+                    <img src="~/Images/wind.jpg" style="height: 200px; width: 300px" />
+                </div>
+                <div class="card-footer">
+                    <a href="~/Curso/Windsurf" class="btn btn-primary">Más info</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">Paddle Surf</h4>
+                <div class="card-body">
+                    <img src="~/Images/paddlesurf.jpg" style="height: 200px; width: 300px" />
+                </div>
+                <div class="card-footer">
+                    <a href="~/Curso/Sup" class="btn btn-primary">Más info</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100">
+                <h4 class="card-header">Vela</h4>
+                <div class="card-body">
+                    <img src="~/Images/velero.jpg" style="height: 200px; width: 300px" />
+                </div>
+                <div class="card-footer">
+                    <a href="~/Curso/Vela" class="btn btn-primary">Más info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

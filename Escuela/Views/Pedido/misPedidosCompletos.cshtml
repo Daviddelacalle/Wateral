@@ -1,0 +1,132 @@
+﻿@using Escuela.Models
+
+
+@{
+    ViewBag.Title = "Mis Pedidos";
+    
+    if (ViewBag.Alumno)
+    {
+        Layout = "~/Views/Shared/_AluLayout.cshtml";
+    }
+    else
+    {
+        if (ViewBag.Profesor)
+        {
+            Layout = "~/Views/Shared/_ProfeLayout.cshtml";
+        }
+        else
+        {
+            Layout = "~/Views/Shared/_Layout.cshtml";
+        }
+    }
+    IList<PedidoCompleto> peds = ViewData["Pedidos"] as IList<PedidoCompleto>;
+
+}
+
+</br></br>
+<h2 class="text-center">Mis pedidos</h2>
+</br></br>
+
+
+
+<div class="container col-sm-10">
+    <div class="jumbotron">
+        @{
+            if (peds.Count == 0)
+            {
+                <h4 class="text-center">No tienes pedidos</h4>
+            }
+        }
+        @foreach (var item in peds)
+        {
+
+            <div class="card ">
+                <div class="card-header bg-info">
+                    <a data-toggle="collapse" href="#collapse@(item.Id)" aria-expanded="false" aria-controls="#collapse@(item.Id)" style="text-decoration: none; color:white">
+
+
+                        <div class="row">
+                            <div class="col text-center">
+                                <b>Fecha: </b>@Html.DisplayFor(modelItem => item.Fecha)
+                            </div>
+                            <div class="col text-center">
+                                <b>Precio: </b>@Html.DisplayFor(modelItem => item.Precio)€
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card-body collapse multi-collapse" id="collapse@(item.Id)" aria-expanded="false" >
+                    <div class="row">
+                        <div class="col">
+                            @{
+                                IList<Pedido> lineas = ViewData[item.Id.ToString()] as IList<Pedido>;
+                                <table class="table">
+                                    <tr class="table-active">
+                                        <th>
+                                            Producto
+                                        </th>
+                                        <th>
+                                            Nombre
+                                        </th>
+                                        <th>
+                                            Cantidad
+                                        </th>
+                                        <th>
+                                            Precio
+                                        </th>
+                                        <th>
+                                            Dias
+                                        </th>
+                                        <th></th>
+                                    </tr>
+
+                                    @foreach (var lin in lineas)
+                                    {
+                                        <tr @{ if (lin.Dias != -1)
+                                            { @: class="table-info"
+                                                                                                                                                                                                        } }>
+                                            <td class="align-middle">
+                                                <img height="90" width="180" src="~/Images/Productos/@Html.DisplayFor(model => lin.Imagen)" />
+                                            </td>
+                                            <td class="align-middle">
+                                                @Html.DisplayFor(modelItem => lin.Nombre)
+                                            </td>
+                                            <td class="align-middle">
+                                                @Html.DisplayFor(modelItem => lin.Cantidad)
+                                            </td>
+                                            <td class="align-middle">
+                                                @Html.DisplayFor(modelItem => lin.Precio)€
+                                            </td>
+                                            <td class="align-middle">
+                                                @if (lin.Dias != -1)
+                                                {
+                                                    Html.DisplayFor(modelItem => lin.Dias);
+                                                    <text>@lin.Dias </text>
+                                                }
+                                                else
+                                                {
+                                                    @:-
+                            }
+
+                                            </td>
+
+
+                                        </tr>
+                                            }
+
+                                </table>
+                            }
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            
+
+                                            }
+
+    </div>
+</div>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WateralGenNHibernate"
+		                   namespace="WateralGenNHibernate.EN.Wateral">
+		    
+		    
+			
+				<class name="NoticiaEN" table="Noticia"> 
+				  	
+						<id name="Id" column="idNoticia" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Noticia" type="string"> 
+						<column name="noticia" length="65535" not-null="true"/>
+					</property>
+					<property name="Imagen" type="string"> 
+						<column name="imagen"  not-null="true"/>
+					</property>
+					<property name="Fecha" type="date"> 
+						<column name="fecha"  not-null="true"/>
+					</property>
+					<property name="Titulo" type="string"> 
+						<column name="titulo"  not-null="true"/>
+					</property>
+			
+			
+		  			
+						<many-to-one name="Administrador" class="WateralGenNHibernate.EN.Wateral.AdministradorEN" >	
+								<column name="FK_email_idAdministrador"/> 
+						</many-to-one>
+											 					
+			
+			
+			
+			
+			
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="NoticiaENReadAllHQL">from NoticiaEN</query>
+		</hibernate-mapping>
+	

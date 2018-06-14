@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "About";
+    if (ViewBag.Alumno)
+    {
+        Layout = "~/Views/Shared/_AluLayout.cshtml";
+    }
+    else
+    {
+        if (ViewBag.Profesor)
+        {
+            Layout = "~/Views/Shared/_ProfeLayout.cshtml";
+        }
+        else
+        {
+            Layout = "~/Views/Shared/_Layout.cshtml";
+        }
+    }
+}
+<div class="jumbotron" style="margin: 100px 10%">
+
+    <h3>Sobre nosotros.</h3>
+
+    <p>Wateral es la última novedad en cuanto a gestión de escuelas náuticas. Dejamos atrás la gestión de alumnos, alquileres, cursos... con incómodos y tediosos papeles que se pierden y evolucionamos a la nueva era: la era digital.</p>
+    <p>
+        La idea surge gracias a un monitor de Kitesurf que vive y sufre el problema en sus propias carnes. Obviamente se trata de una evolución mucho más viable, segura, efectiva y rápida a la hora de gestionar una escuela.
+        La realización del proyecto se origina en una asignatura del grado en Ingeniería Multimedia, llamada Diseño de Sistemas Multimedia, bajo los tutores Yoan Gutierrez Vazquez y Santiago Melia Beigbeder.
+        El grupo que realiza el proyecto está compuesto por Carlos Aldaravi Coll, Antonio Ríos Vila, Flaviu Lucian Georgiu, Javier Richarte Gras, David de la Calle Sancho y Marcos Urios Gómez.
+    </p>
+</div>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WateralGenNHibernate"
+		                   namespace="WateralGenNHibernate.EN.Wateral">
+		    
+		    
+			
+				<class name="ProfesorEN" table="Profesor"> 
+				  	
+						<id name="Id" column="id" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="NIF" type="string"> 
+						<column name="NIF"  unique="true" not-null="true"/>
+					</property>
+					<property name="Disponibilidad" type="string"> 
+						<column name="disponibilidad"  not-null="true"/>
+					</property>
+					<property name="Deporte" > 
+						<column name="deporte"  not-null="true"/>
+					</property>
+			
+			
+			
+		  			
+						<bag name="Grupos" >
+							<key>
+							
+								
+								<column name="FK_id_idProfesor"/>
+					      	</key>
+							<one-to-many class="WateralGenNHibernate.EN.Wateral.GrupoEN"/>
+					    </bag>
+					
+			
+			
+		  			
+						<bag name="ValoracionesProfesor_0" >
+							<key>
+							
+								
+								<column name="FK_id_idProfesor"/>
+					      	</key>
+							<one-to-many class="WateralGenNHibernate.EN.Wateral.ValoracionProfesorEN"/>
+					    </bag>
+					
+			
+		  			
+					
+							<many-to-one name="UserRegistrado" class="WateralGenNHibernate.EN.Wateral.UserRegistradoEN" >
+								<column name="FK_email_idUserRegistrado"/> 
+        					</many-to-one>
+					 
+						
+			
+			
+					
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="ProfesorENReadAllHQL">from ProfesorEN</query>
+		</hibernate-mapping>
+	

@@ -1,0 +1,85 @@
+﻿@model IEnumerable<Escuela.Models.Mensaje>
+
+@{
+    ViewBag.Title = "Index";
+
+    if (ViewBag.Alumno)
+    {
+        Layout = "~/Views/Shared/_AluLayout.cshtml";
+    }
+    else
+    {
+        if (ViewBag.Profesor)
+        {
+            Layout = "~/Views/Shared/_ProfeLayout.cshtml";
+        }
+        else
+        {
+            Layout = "~/Views/Shared/_Layout.cshtml";
+        }
+    }
+}
+
+<div class="jumbotron" style="margin: 35px 10%">
+    <h1 class="my-4 text-center">MIS MENSAJES</h1>
+    <hr class="my-4" />
+    <ul class="nav nav-pills">
+        <li class="active"><a class="btn btn-primary" data-toggle="pill" href="#in">Recibidos</a></li>
+        <li>&nbsp;</li>
+        <li><a class="btn btn-primary" data-toggle="pill" href="#out">Enviados</a></li>
+        <li>&nbsp;</li>
+        <li>
+            @{
+                string link = "/Mensaje/Create";
+                <a href=@link class="btn btn-success" style="float: right">NUEVO MENSAJE</a>
+            }
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="in" class="tab-pane active">
+
+            <hr class="my-4" />
+            <h3>Bandeja de entrada</h3>
+            <hr class="my-4" />
+            @foreach (var item in Model)
+            {
+                if (item.Receptor.Equals(Session["UserName"].ToString()))
+                {
+
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <b> De: @item.Emisor </b> &nbsp; @item.Fecha
+                            <p style="float: right">@Html.ActionLink("Responder", "Responder", new { destinatario = item.Emisor.Split('.')[0] })</p>
+                        </div>
+                        <div class="card-body">
+                            <p> @item.Texto </p>
+                        </div>
+                    </div>
+                    <br>
+
+                }
+            }
+        </div>
+        <div id="out" class="tab-pane fade">
+            <hr class="my-4" />
+            <h3>Bandeja de salida</h3>
+            <hr class="my-4" />
+            @foreach (var item in Model)
+            {
+                if (item.Emisor.Equals(Session["UserName"].ToString()))
+                {
+
+                    <div class="card h-100">
+                        <div class="card-header"><b> Para: @item.Receptor </b> &nbsp; @item.Fecha</div>
+                        <div class="card-body">
+                            <p> @item.Texto </p>
+                        </div>
+                    </div>
+                            <br>
+                }
+            }
+        </div>
+    </div>
+</div>
+

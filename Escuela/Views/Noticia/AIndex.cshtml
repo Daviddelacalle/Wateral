@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Escuela.Models.Noticia>
+
+@{
+    ViewBag.Title = "AIndex";
+    Layout = "~/Views/Shared/_ALayout.cshtml";
+}
+
+
+<div class="card-box">
+    <h2 class="header-title m-t-0">Listado de noticias</h2>
+    <div class="widget-chart text-center">
+        <table class="table">
+            <tr class="text-center">
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Imagen)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Fecha)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Titulo)
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Texto)
+                </th>
+                <th class="text-center"
+                    @Html.DisplayNameFor(model => model.Autor)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr class="text-center">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Imagen)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Fecha)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Titulo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Texto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Autor)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Editar", "Edit", new { id = item.id }) |
+                        @Html.ActionLink("Ver Detalles", "Details", new { id = item.id }) |
+                        @Html.ActionLink("Eliminar", "Delete", new { id = item.id })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+
+    @{
+        string link = "/Noticia/Create";
+        <a href=@link class="btn btn-primary" style="float: right">AÑADIR NOTICIA</a>
+    }
+
+</div>
+
+

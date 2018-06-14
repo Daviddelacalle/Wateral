@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WateralGenNHibernate"
+		                   namespace="WateralGenNHibernate.EN.Wateral">
+		    
+		    
+			
+				<class name="AlumnoEN" table="Alumno"> 
+				  	
+						<id name="Idalumno" column="idalumno" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+					<property name="Disponibilidad" type="string"> 
+						<column name="disponibilidad"  not-null="true"/>
+					</property>
+					<property name="Salud" type="string"> 
+						<column name="salud"  not-null="true"/>
+					</property>
+					<property name="Peso" type="integer"> 
+						<column name="peso"  not-null="true"/>
+					</property>
+					<property name="Talla" > 
+						<column name="talla"  not-null="true"/>
+					</property>
+					<property name="NumPie" type="integer"> 
+						<column name="numPie"  not-null="true"/>
+					</property>
+					<property name="DNI" type="string"> 
+						<column name="DNI"  unique="true" not-null="true"/>
+					</property>
+			
+			
+			
+			
+			
+			
+			
+			
+		  			
+						<bag name="ValoracionesCurso" >
+							<key>
+							
+								
+								<column name="FK_idalumno_idAlumno"/>
+					      	</key>
+							<one-to-many class="WateralGenNHibernate.EN.Wateral.ValoracionCursoEN"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="ValoracionesProfesor" >
+							<key>
+							
+								
+								<column name="FK_idalumno_idAlumno_0"/>
+					      	</key>
+							<one-to-many class="WateralGenNHibernate.EN.Wateral.ValoracionProfesorEN"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="Solicitudes_cambio" >
+							<key>
+							
+								
+								<column name="FK_idalumno_idAlumno"/>
+					      	</key>
+							<one-to-many class="WateralGenNHibernate.EN.Wateral.Solicitud_cambioEN"/>
+					    </bag>
+					
+			
+		  			
+						<bag name="Grupos" table="[grupo_alumno]" inverse="true" >
+							<key>
+								
+									<column name="FK_idalumno_idAlumno"/> 
+							</key>
+      						<many-to-many class="WateralGenNHibernate.EN.Wateral.GrupoEN">
+									<column name="FK_idGrupo_idGrupo"/> 
+      						</many-to-many>
+    					</bag>
+			
+		  			
+					
+							<many-to-one name="UserRegistrado" class="WateralGenNHibernate.EN.Wateral.UserRegistradoEN" >
+								<column name="FK_email_idUserRegistrado"/> 
+        					</many-to-one>
+					 
+						
+			
+			
+		  			
+						<bag name="Matriculas" >
+							<key>
+							
+								
+								<column name="FK_idalumno_idAlumno"/>
+					      	</key>
+							<one-to-many class="WateralGenNHibernate.EN.Wateral.MatriculaEN"/>
+					    </bag>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="AlumnoENReadAllHQL">from AlumnoEN</query>
+		  <query name="AlumnoENcuentaAlumnosHQL"><![CDATA[select count(a) from AlumnoEN a inner join a.Grupos g where g.Id = :grupo]]></query>
+		</hibernate-mapping>
+	

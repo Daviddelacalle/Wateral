@@ -1,0 +1,425 @@
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Flaviu\Desktop\CestaAlumnosMensajes\CestaAlumnosMensajes\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+D:\Usuarios\javir\Downloads\Telegram Desktop\Escuela\Escuela\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+D:\Usuarios\javir\Downloads\Telegram Desktop\Escuela\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+D:\Usuarios\javir\Downloads\Telegram Desktop\Escuela\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+D:\Usuarios\javir\Downloads\Telegram Desktop\Escuela\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+D:\Usuarios\javir\Downloads\Telegram Desktop\Escuela\Escuela\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+D:\Usuarios\javir\Downloads\Telegram Desktop\Escuela\Escuela\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+D:\Usuarios\javir\Downloads\Telegram Desktop\Escuela\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\Usuarios\javir\Downloads\Telegram Desktop\Escuela\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+D:\Usuarios\javir\Downloads\Telegram Desktop\Escuela\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.dll
+D:\Usuarios\javir\Downloads\Telegram Desktop\Escuela\Escuela\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+D:\Usuarios\javir\Downloads\Telegram Desktop\Escuela\Escuela\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+D:\Usuarios\javir\Downloads\Telegram Desktop\Escuela\Escuela\WateralGenNHibernate\bin\Debug\log4net.dll
+D:\Usuarios\javir\Downloads\Telegram Desktop\Escuela\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+D:\Usuarios\javir\Downloads\Telegram Desktop\Escuela\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+D:\Usuarios\javir\Downloads\Telegram Desktop\Escuela\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Escuela\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Escuela\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Escuela\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Escuela\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Escuela\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Escuela\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\Flaviu\Desktop\Escuela\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Flaviu\Desktop\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Flaviu\Desktop\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Flaviu\Desktop\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Flaviu\Desktop\Escuela\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Flaviu\Desktop\Escuela\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Flaviu\Desktop\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Flaviu\Desktop\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Flaviu\Desktop\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Flaviu\Desktop\Escuela\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Flaviu\Desktop\Escuela\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Flaviu\Desktop\Escuela\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Flaviu\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Flaviu\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Flaviu\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\caldaravi-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\caldaravi-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\caldaravi-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\caldaravi-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\caldaravi-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\caldaravi-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\caldaravi-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\caldaravi-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\caldaravi-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\caldaravi-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\caldaravi-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\caldaravi-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\caldaravi-win\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\caldaravi-win\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\caldaravi-win\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\Flaviu\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+D:\Usuarios\javir\Desktop\Escuela\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+D:\Usuarios\javir\Desktop\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+D:\Usuarios\javir\Desktop\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+D:\Usuarios\javir\Desktop\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+D:\Usuarios\javir\Desktop\Escuela\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+D:\Usuarios\javir\Desktop\Escuela\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+D:\Usuarios\javir\Desktop\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\Usuarios\javir\Desktop\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+D:\Usuarios\javir\Desktop\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.dll
+D:\Usuarios\javir\Desktop\Escuela\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+D:\Usuarios\javir\Desktop\Escuela\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+D:\Usuarios\javir\Desktop\Escuela\WateralGenNHibernate\bin\Debug\log4net.dll
+D:\Usuarios\javir\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+D:\Usuarios\javir\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+D:\Usuarios\javir\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+D:\Usuarios\javir\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\Escuela\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Usuario\Desktop\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Usuario\Desktop\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Usuario\Desktop\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Usuario\Desktop\Escuela\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Usuario\Desktop\Escuela\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Usuario\Desktop\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Usuario\Desktop\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Usuario\Desktop\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Usuario\Desktop\Escuela\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Usuario\Desktop\Escuela\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Usuario\Desktop\Escuela\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Usuario\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Usuario\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+D:\Usuarios\javir\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+D:\Usuarios\javir\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+D:\Usuarios\javir\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+D:\Usuarios\javir\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+D:\Usuarios\javir\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+D:\Usuarios\javir\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+D:\Usuarios\javir\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\Usuarios\javir\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+D:\Usuarios\javir\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.dll
+D:\Usuarios\javir\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+D:\Usuarios\javir\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+D:\Usuarios\javir\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\log4net.dll
+D:\Usuarios\javir\Desktop\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+D:\Usuarios\javir\Desktop\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+D:\Usuarios\javir\Desktop\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+D:\Usuarios\javir\Desktop\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\Anjaim\Downloads\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Anjaim\Downloads\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Anjaim\Downloads\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Anjaim\Downloads\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Anjaim\Downloads\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Anjaim\Downloads\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Anjaim\Downloads\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Anjaim\Downloads\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Anjaim\Downloads\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Anjaim\Downloads\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Anjaim\Downloads\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Anjaim\Downloads\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Anjaim\Downloads\PIPO\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+C:\Users\Anjaim\Downloads\PIPO\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Anjaim\Downloads\PIPO\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Anjaim\Downloads\PIPO\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\Usuario\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Usuario\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Usuario\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Usuario\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Usuario\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Usuario\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Usuario\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Usuario\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Usuario\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Usuario\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Usuario\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Usuario\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Usuario\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Usuario\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\Marcos-win\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Marcos-win\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Marcos-win\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Marcos-win\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Marcos-win\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Marcos-win\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Marcos-win\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Marcos-win\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Marcos-win\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Marcos-win\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Marcos-win\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Marcos-win\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Marcos-win\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+C:\Users\Marcos-win\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Marcos-win\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Marcos-win\Desktop\PIPO\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\Marcos-win\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Marcos-win\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Marcos-win\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Marcos-win\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Marcos-win\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Marcos-win\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Marcos-win\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Marcos-win\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Marcos-win\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Marcos-win\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Marcos-win\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Marcos-win\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Marcos-win\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+C:\Users\Marcos-win\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Marcos-win\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Marcos-win\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\Usuario\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Usuario\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Usuario\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Usuario\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Usuario\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Usuario\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Usuario\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Usuario\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Usuario\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Usuario\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Usuario\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Usuario\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Usuario\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Usuario\Desktop\ultimavers\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\Flaviu\Downloads\Telegram Desktop\ultimavers\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Flaviu\Downloads\Telegram Desktop\ultimavers\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Flaviu\Downloads\Telegram Desktop\ultimavers\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\ultimavers\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Flaviu\Downloads\Telegram Desktop\ultimavers\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\ultimavers\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\ultimavers\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\ultimavers\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\ultimavers\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\ultimavers\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\ultimavers\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\ultimavers\ultimavers\Escuela (2)\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\ultimavers\ultimavers\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+C:\Users\Flaviu\Downloads\Telegram Desktop\ultimavers\ultimavers\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Flaviu\Downloads\Telegram Desktop\ultimavers\ultimavers\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\ultimavers\ultimavers\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\Usuario\Desktop\UNIVERSIDAD\Tercer Curso\Primer Cuatrimestre\DSM\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\UNIVERSIDAD\Tercer Curso\Primer Cuatrimestre\DSM\Escuela (2)\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Usuario\Desktop\UNIVERSIDAD\Tercer Curso\Primer Cuatrimestre\DSM\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Usuario\Desktop\UNIVERSIDAD\Tercer Curso\Primer Cuatrimestre\DSM\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Usuario\Desktop\UNIVERSIDAD\Tercer Curso\Primer Cuatrimestre\DSM\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Usuario\Desktop\UNIVERSIDAD\Tercer Curso\Primer Cuatrimestre\DSM\Escuela (2)\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Usuario\Desktop\UNIVERSIDAD\Tercer Curso\Primer Cuatrimestre\DSM\Escuela (2)\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Usuario\Desktop\UNIVERSIDAD\Tercer Curso\Primer Cuatrimestre\DSM\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Usuario\Desktop\UNIVERSIDAD\Tercer Curso\Primer Cuatrimestre\DSM\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Usuario\Desktop\UNIVERSIDAD\Tercer Curso\Primer Cuatrimestre\DSM\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Usuario\Desktop\UNIVERSIDAD\Tercer Curso\Primer Cuatrimestre\DSM\Escuela (2)\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Usuario\Desktop\UNIVERSIDAD\Tercer Curso\Primer Cuatrimestre\DSM\Escuela (2)\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Usuario\Desktop\UNIVERSIDAD\Tercer Curso\Primer Cuatrimestre\DSM\Escuela (2)\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Usuario\Desktop\UNIVERSIDAD\Tercer Curso\Primer Cuatrimestre\DSM\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Usuario\Desktop\UNIVERSIDAD\Tercer Curso\Primer Cuatrimestre\DSM\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\caldaravi-win\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\caldaravi-win\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\caldaravi-win\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\caldaravi-win\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\caldaravi-win\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\caldaravi-win\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\caldaravi-win\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\caldaravi-win\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\caldaravi-win\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\caldaravi-win\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\caldaravi-win\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\caldaravi-win\Desktop\Escuela (2)\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\caldaravi-win\Desktop\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\caldaravi-win\Desktop\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\caldaravi-win\Desktop\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\caldaravi-win\Desktop\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+C:\Users\Flaviu\Downloads\Telegram Desktop\Escuela (2)\Escuela (2)\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Flaviu\Downloads\Telegram Desktop\Escuela (2)\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Flaviu\Downloads\Telegram Desktop\Escuela (2)\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\Escuela (2)\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Flaviu\Downloads\Telegram Desktop\Escuela (2)\Escuela (2)\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\Escuela (2)\Escuela (2)\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\Escuela (2)\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\Escuela (2)\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\Escuela (2)\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\Escuela (2)\Escuela (2)\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\Escuela (2)\Escuela (2)\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\Escuela (2)\Escuela (2)\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\Escuela (2)\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+C:\Users\Flaviu\Downloads\Telegram Desktop\Escuela (2)\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Flaviu\Downloads\Telegram Desktop\Escuela (2)\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\Escuela (2)\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\Usuario\Desktop\Last DSM version\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Usuario\Desktop\Last DSM version\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Usuario\Desktop\Last DSM version\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Usuario\Desktop\Last DSM version\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Usuario\Desktop\Last DSM version\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Usuario\Desktop\Last DSM version\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Usuario\Desktop\Last DSM version\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Usuario\Desktop\Last DSM version\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Usuario\Desktop\Last DSM version\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Usuario\Desktop\Last DSM version\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Usuario\Desktop\Last DSM version\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Usuario\Desktop\Last DSM version\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Usuario\Desktop\Last DSM version\M (1)\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Last DSM version\M (1)\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Usuario\Desktop\Last DSM version\M (1)\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\Flaviu\Downloads\Telegram Desktop\M (1)\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Flaviu\Downloads\Telegram Desktop\M (1)\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Flaviu\Downloads\Telegram Desktop\M (1)\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\M (1)\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Flaviu\Downloads\Telegram Desktop\M (1)\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\M (1)\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\M (1)\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\M (1)\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\M (1)\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\M (1)\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\M (1)\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\M (1)\M (1)\Escuela (2)\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\M (1)\M (1)\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+C:\Users\Flaviu\Downloads\Telegram Desktop\M (1)\M (1)\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Flaviu\Downloads\Telegram Desktop\M (1)\M (1)\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\M (1)\M (1)\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\Marcos-win\Desktop\V\Escuela (2)\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Marcos-win\Desktop\V\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Marcos-win\Desktop\V\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Marcos-win\Desktop\V\Escuela (2)\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Marcos-win\Desktop\V\Escuela (2)\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Marcos-win\Desktop\V\Escuela (2)\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Marcos-win\Desktop\V\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Marcos-win\Desktop\V\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Marcos-win\Desktop\V\Escuela (2)\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Marcos-win\Desktop\V\Escuela (2)\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Marcos-win\Desktop\V\Escuela (2)\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Marcos-win\Desktop\V\Escuela (2)\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Marcos-win\Desktop\V\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+C:\Users\Marcos-win\Desktop\V\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Marcos-win\Desktop\V\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Marcos-win\Desktop\V\Escuela (2)\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\Marcos-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Marcos-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Marcos-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Marcos-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Marcos-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Marcos-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Marcos-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Marcos-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Marcos-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Marcos-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Marcos-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Marcos-win\Desktop\Escuela\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Marcos-win\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+C:\Users\Marcos-win\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Marcos-win\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Marcos-win\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\WateralDefinitif\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\WateralDefinitif\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\WateralDefinitif\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+D:\Usuarios\javir\Desktop\WATERAL\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+D:\Usuarios\javir\Desktop\WATERAL\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+D:\Usuarios\javir\Desktop\WATERAL\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+D:\Usuarios\javir\Desktop\WATERAL\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+D:\Usuarios\javir\Desktop\WATERAL\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+D:\Usuarios\javir\Desktop\WATERAL\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+D:\Usuarios\javir\Desktop\WATERAL\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\Usuarios\javir\Desktop\WATERAL\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+D:\Usuarios\javir\Desktop\WATERAL\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.dll
+D:\Usuarios\javir\Desktop\WATERAL\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+D:\Usuarios\javir\Desktop\WATERAL\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+D:\Usuarios\javir\Desktop\WATERAL\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\log4net.dll
+D:\Usuarios\javir\Desktop\WATERAL\WateralDefinitif\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+D:\Usuarios\javir\Desktop\WATERAL\WateralDefinitif\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+D:\Usuarios\javir\Desktop\WATERAL\WateralDefinitif\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+D:\Usuarios\javir\Desktop\WATERAL\WateralDefinitif\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\Usuario\Desktop\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Usuario\Desktop\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Usuario\Desktop\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Usuario\Desktop\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Usuario\Desktop\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Usuario\Desktop\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Usuario\Desktop\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Usuario\Desktop\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Usuario\Desktop\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Usuario\Desktop\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Usuario\Desktop\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Usuario\Desktop\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Usuario\Desktop\WateralDefinitif\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\WateralDefinitif\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Usuario\Desktop\WateralDefinitif\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\Flaviu\Downloads\Telegram Desktop\WateralDefinitif\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Flaviu\Downloads\Telegram Desktop\WateralDefinitif\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Flaviu\Downloads\Telegram Desktop\WateralDefinitif\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\WateralDefinitif\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Flaviu\Downloads\Telegram Desktop\WateralDefinitif\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\WateralDefinitif\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\WateralDefinitif\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\WateralDefinitif\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\WateralDefinitif\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\WateralDefinitif\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\WateralDefinitif\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\WateralDefinitif\WateralDefinitif\Escuela\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\WateralDefinitif\WateralDefinitif\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+C:\Users\Flaviu\Downloads\Telegram Desktop\WateralDefinitif\WateralDefinitif\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Flaviu\Downloads\Telegram Desktop\WateralDefinitif\WateralDefinitif\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Flaviu\Downloads\Telegram Desktop\WateralDefinitif\WateralDefinitif\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\Marcos-win\Desktop\Escuela (3)\Escuela\WateralGenNHibernate\bin\Debug\hibernate.cfg.xml
+C:\Users\Marcos-win\Desktop\Escuela (3)\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll.config
+C:\Users\Marcos-win\Desktop\Escuela (3)\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.dll
+C:\Users\Marcos-win\Desktop\Escuela (3)\Escuela\WateralGenNHibernate\bin\Debug\WateralGenNHibernate.pdb
+C:\Users\Marcos-win\Desktop\Escuela (3)\Escuela\WateralGenNHibernate\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\Marcos-win\Desktop\Escuela (3)\Escuela\WateralGenNHibernate\bin\Debug\LinFu.DynamicProxy.dll
+C:\Users\Marcos-win\Desktop\Escuela (3)\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\Users\Marcos-win\Desktop\Escuela (3)\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.ByteCode.LinFu.dll
+C:\Users\Marcos-win\Desktop\Escuela (3)\Escuela\WateralGenNHibernate\bin\Debug\NHibernate.dll
+C:\Users\Marcos-win\Desktop\Escuela (3)\Escuela\WateralGenNHibernate\bin\Debug\Iesi.Collections.dll
+C:\Users\Marcos-win\Desktop\Escuela (3)\Escuela\WateralGenNHibernate\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Marcos-win\Desktop\Escuela (3)\Escuela\WateralGenNHibernate\bin\Debug\log4net.dll
+C:\Users\Marcos-win\Desktop\Escuela (3)\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache
+C:\Users\Marcos-win\Desktop\Escuela (3)\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csproj.CoreCompileInputs.cache
+C:\Users\Marcos-win\Desktop\Escuela (3)\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.dll
+C:\Users\Marcos-win\Desktop\Escuela (3)\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.pdb
+C:\Users\caldaravi-win\Desktop\Escuela\WateralGenNHibernate\obj\Debug\WateralGenNHibernate.csprojResolveAssemblyReference.cache

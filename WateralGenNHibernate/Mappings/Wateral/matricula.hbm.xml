@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+		<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+		                   assembly="WateralGenNHibernate"
+		                   namespace="WateralGenNHibernate.EN.Wateral">
+		    
+		    
+			
+				<class name="MatriculaEN" table="Matricula"> 
+				  	
+						<id name="Id" column="idMatricula" type="integer"> 
+							<generator class="hilo"/>
+						</id>
+			
+					
+			
+			
+		  			
+						<many-to-one name="Curso" class="WateralGenNHibernate.EN.Wateral.CursoEN" >	
+								<column name="FK_idCurso_idCurso"/> 
+						</many-to-one>
+											 					
+			
+			
+		  			
+					
+							   <one-to-one name="Pago" class="WateralGenNHibernate.EN.Wateral.PagoEN" property-ref="Matricula" />							
+					 
+						
+			
+		  			
+						<many-to-one name="Alumno" class="WateralGenNHibernate.EN.Wateral.AlumnoEN" >	
+								<column name="FK_idalumno_idAlumno"/> 
+						</many-to-one>
+											 					
+					
+					
+					
+					
+		
+		 </class>	
+		  
+		  <query name="MatriculaENReadAllHQL">from MatriculaEN</query>
+		</hibernate-mapping>
+	
